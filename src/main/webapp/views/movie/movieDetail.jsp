@@ -14,7 +14,7 @@
 
 <style>
 	.outer{
-		width:800px;
+		width:700px;
 		height:500px;
 		background:black;
 		color:white;
