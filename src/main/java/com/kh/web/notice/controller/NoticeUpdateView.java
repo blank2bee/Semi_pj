@@ -38,7 +38,7 @@ public class NoticeUpdateView extends HttpServlet {
 		
 		if( n != null ) {
 			request.setAttribute("notice", n);
-			page = "views/board/noticeUpdate.jsp";
+			page = "views/notice/noticeUpdate.jsp";
 		} else {
 			request.setAttribute("error-msg", "게시글 수정화면 연동 실패!");
 			page = "views/common/errorPage.jsp";

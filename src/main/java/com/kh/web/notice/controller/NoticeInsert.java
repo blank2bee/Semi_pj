@@ -12,8 +12,6 @@ import org.apache.tomcat.util.http.fileupload.servlet.ServletFileUpload;
 
 import com.kh.web.notice.model.service.NoticeService;
 import com.kh.web.notice.model.vo.Notice;
-import com.kh.web.notice.model.service.NoticeService;
-import com.kh.web.notice.model.vo.Notice;
 import com.oreilly.servlet.MultipartRequest;
 import com.oreilly.servlet.multipart.DefaultFileRenamePolicy;
 

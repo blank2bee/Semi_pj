@@ -9,9 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.kh.web.board.model.service.BoardService;
-import com.kh.web.board.model.vo.PageInfo;
 import com.kh.web.notice.model.service.NoticeService;
+import com.kh.web.notice.model.vo.PageInfo;
 import com.kh.web.notice.model.vo.Notice;
 
 /**

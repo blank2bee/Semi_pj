@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.apache.tomcat.util.http.fileupload.servlet.ServletFileUpload;
 
-import com.kh.web.board.model.service.BoardService;
 import com.kh.web.notice.model.service.NoticeService;
 import com.kh.web.notice.model.vo.Notice;
 import com.oreilly.servlet.MultipartRequest;

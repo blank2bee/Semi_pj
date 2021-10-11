@@ -29,7 +29,7 @@
                         <span class="nav_name">찜 목록</span>
                     </div>
 
-                    <a href="#" class="nav__link">
+                    <a onclick="goNotice()" class="nav__link">
                         <ion-icon name="pie-chart-outline" class="nav__icon"></ion-icon>
                         <span class="nav_name">공지사항</span>
                     </a>
@@ -55,6 +55,11 @@
     function goBoard(){
 		location.href="/travelMaker/selectList.bo";
 	}
+    
+    function goNotice(){
+		location.href="/travelMaker/selectList.no";
+	}
+    
     
     function goList(){
 		location.href="/travelMaker/selectList.mo";
