@@ -138,9 +138,9 @@
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/italianJob.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/john wick.jpg" alt="">
                         </a>
-                        <span class="mTitle">이탈리안잡(Italian Job)</span>
+                        <span class="mTitle">존윅 : 리로드(John Wick)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
