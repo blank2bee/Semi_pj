@@ -55,7 +55,7 @@
 	padding-top: 35px;
 	padding-left: 35px;
 	
-	   /*  color : black; */
+	  
 	}
 	.note {
     width: 160px;
@@ -343,7 +343,7 @@ text-transform: uppercase; color: #33FFCC; cursor: pointer; border: 3px solid;
 
 	<div class="outer">
 		<br>
-		<h2 align="center">게시판 목록</h2>
+		<h2 align="center">방문 후기 목록</h2>
 		<div class="frame">
 		
 		 <div id='frame'>
