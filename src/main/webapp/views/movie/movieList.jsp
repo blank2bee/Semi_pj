@@ -29,7 +29,7 @@
 		margin-top:50px;
 	}
 	#listArea {
-		padding : 30px;
+		padding : 40px;
 		border:1px solid white;
 		text-align:center;
 	}
