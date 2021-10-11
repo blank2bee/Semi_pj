@@ -5,8 +5,16 @@
 <head>
 <meta charset="UTF-8">
 <title>1:1문의사항</title>
+<link rel="stylesheet" href="/travelMaker/resources/css/common.css">
+<style>
+body{color:white;}
+
+</style>
 </head>
 <body>
+<%@ include file="../common/banner.jsp" %>
+	<%@ include file="/views/common/sidebar.jsp" %>  
+	
 	<div id="container">
         <div class="content">
           <div class="visualArea2 inquiryBg">
@@ -115,5 +123,9 @@
         </div>
       </div>
     </div>
+    <br />
+    <br />
+    <br />
+    <%@ include file="/views/common/footer.jsp" %> 
 </body>
 </html>

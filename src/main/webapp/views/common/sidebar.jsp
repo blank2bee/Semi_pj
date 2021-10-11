@@ -34,7 +34,7 @@
                         <span class="nav_name">공지사항</span>
                     </a>
 
-                    <div href="#" class="nav__link collapse">
+                    <div class="nav__link collapse"  onclick="goMan()">
                         <ion-icon name="people-outline" class="nav__icon"></ion-icon>
                         <span class="nav_name">1 : 1 문의</span>
                     </div>
@@ -58,6 +58,9 @@
     
     function goList(){
 		location.href="/travelMaker/selectList.mo";
+	}
+    function goMan(){
+		location.href="/travelMaker/views/myinfo/mantoman.jsp";
 	}
     
     </script>
