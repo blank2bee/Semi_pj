@@ -82,7 +82,7 @@ color: white;
   				 </a>
   				</div>
   				<div class="1">
-  				<a href="">
+  				<a href="/travelMaker/views/movie/movie.jsp">
 					<h1>Europe</h1>  				
   					<img src="resources/images/continent/151641-2196f3.png" alt="" />
   				</a>
