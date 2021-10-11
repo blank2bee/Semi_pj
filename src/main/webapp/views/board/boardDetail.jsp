@@ -25,7 +25,7 @@
 	td {
 		border:1px solid black;
 		background : black;
-		color: white;S
+		color: white;
 	}
 
 	.tableArea {
