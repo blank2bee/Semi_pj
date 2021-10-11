@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+.container{
+    background-color: #151515;
+    min-height: calc(100vh - 50px);
+    color: white;
+}
+
+.content-container{
+    margin-left: 30px;
+}
+
+.featured-content{
+    height: 50vh;
+    padding: 100px;
+}
+
+.country{
+    font-size: 60px;
+}
+
+.desc{
+    width: 500px;
+    color: white;
+    margin: 40px 0;
+}
+
+/*movie list*/
+
+.movie-list-container{
+    position: relative;
+    padding: 20px;
+}
+
+.moive-list-title{
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.movie-list-wrapper{
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+.movie-list{
+    display: flex;
+    transform: translateX(0);
+}
+
+.movie-img{
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+
+
+
+

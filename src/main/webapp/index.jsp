@@ -65,7 +65,9 @@ section{
 
  <section>
         <div class="right-imgbox">
+        <a href="/travelMaker/views/movie/movie.jsp">        
            <img src="resources/images/world-map-g21ccc280b_1280.png" alt="#">
+        </a>
            <div class="search-box">
                <img src="resources/images/magnifying-glass-gd08d35325_1280.png" alt="#">
                <input type="text">
