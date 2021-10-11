@@ -37,7 +37,7 @@ public class BoardSelectList extends HttpServlet {
 		int currentPage = 1;
 		
 		// 페이지당 게시글 수
-		int limit = 10;
+		int limit = 12;
 		
 		// 만약 사용자가 특정 페이지 정보를 가져왔다면
 		if( request.getParameter("currentPage") != null) {
