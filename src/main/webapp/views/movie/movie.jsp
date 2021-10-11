@@ -43,7 +43,7 @@
         <div class="movie-list-container">
             <h1 class="moive-list-title">UNITED KINGDOM</h1>
             <div class="movie-list-wrapper">
-                <div class="movie-list">
+                <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
                             <img class="movie-img "src="/travelMaker/resources/images/007.jpg" alt="">
@@ -93,7 +93,7 @@
         <div class="movie-list-container">
             <h1 class="moive-list-title">FRANCE</h1>
             <div class="movie-list-wrapper">
-                <div class="movie-list">
+                <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
                             <img class="movie-img "src="/travelMaker/resources/images/007.jpg" alt="">
@@ -143,7 +143,7 @@
         <div class="movie-list-container">
             <h1 class="moive-list-title">ITALY</h1>
             <div class="movie-list-wrapper">
-                <div class="movie-list">
+                <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
                         <a href="#">
                             <img class="movie-img "src="/travelMaker/resources/images/007.jpg" alt="">
@@ -193,7 +193,7 @@
         <div class="movie-list-container">
             <h1 class="moive-list-title">GERMANY</h1>
             <div class="movie-list-wrapper">
-                <div class="movie-list">
+                <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
                             <img class="movie-img "src="/travelMaker/resources/images/007.jpg" alt="">
@@ -243,7 +243,7 @@
         <div class="movie-list-container">
             <h1 class="moive-list-title">SWITZERLAND</h1>
             <div class="movie-list-wrapper">
-                <div class="movie-list">
+                <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
                         <a href="#">
                             <img class="movie-img "src="/travelMaker/resources/images/007.jpg" alt="">
