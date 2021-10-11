@@ -52,6 +52,7 @@
 	
 	<%@ include file="../common/banner.jsp" %>
 	
+	<div class="testing">checking git repository!!!!!</div>
 	<div class="outer">
 		<br>
 		<h2 align="center">게시글 상세보기</h2>

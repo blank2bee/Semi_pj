@@ -54,7 +54,7 @@
 	<%@ include file="../common/banner.jsp" %>
 	<%@ include file="/views/common/sidebar.jsp" %>  
 	<%@ include file="/views/common/footer.jsp" %> 
-
+	
 	<div class="outer">
 		<br>
 		<h2 align="center">여행 후기 게시판</h2>
