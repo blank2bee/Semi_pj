@@ -157,70 +157,33 @@
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/007.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/charliesAngels.jpg" alt="">
                         </a>
-                        <span class="mTitle">007 sky fall</span>
+                        <span class="mTitle">미녀삼총사3(Charlie's Angels)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/aboutBoy.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/ImYourMan.jpg" alt="">
                         </a>
-                        <span class="mTitle">007 sky fall</span>
+                        <span class="mTitle">아임유어맨(I'm Your Man)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/aboutTime.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/The Grand Budapest Hotel.jpg" alt="">
                         </a>
-                        <span class="mTitle">007 sky fall</span>
+                        <span class="mTitle">그랜드부다페스호텔(The Grand Budapest Hotel)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/bridget.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/theBookThief.jpg" alt="">
                         </a>
-                        <span class="mTitle">007 sky fall</span>
+                        <span class="mTitle">책도둑(The Book Theif)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/closer.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/gunpowder.jpg" alt="">
                         </a>
-                        <span class="mTitle">007 sky fall</span>
-                    </div>
-                </div>
-            </div>  
-        </div>
-        <div class="movie-list-container">
-            <h1 class="moive-list-title">SWITZERLAND</h1>
-            <div class="movie-list-wrapper">
-                <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
-                    <div class="item">
-                        <a href="#">
-                            <img class="movie-img "src="/travelMaker/resources/images/007.jpg" alt="">
-                        </a>
-                        <span class="mTitle">007 sky fall</span>
-                    </div>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/aboutBoy.jpg" alt="">
-                        </a>
-                        <span class="mTitle">007 sky fall</span>
-                    </div>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/aboutTime.jpg" alt="">
-                        </a>
-                        <span class="mTitle">007 sky fall</span>
-                    </div>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/bridget.jpg" alt="">
-                        </a>
-                        <span class="mTitle">007 sky fall</span>
-                    </div>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/closer.jpg" alt="">
-                        </a>
-                        <span class="mTitle">007 sky fall</span>
+                        <span class="mTitle">건파우더 밀크셰이크(Gunpowder Milkshake)</span>
                     </div>
                 </div>
             </div>  
