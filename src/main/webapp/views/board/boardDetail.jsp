@@ -10,7 +10,6 @@
 <head>
 <meta charset="UTF-8">
 <title>게시글 상세보기</title>
-<title>게시글 상세보기</title>
 <link rel="stylesheet" href="/travelMaker/resources/css/common.css">
 <link rel="stylesheet" href="/travelMaker/resources/css/mapApi.css">
 <link rel="stylesheet" href="/travelMaker/resources/css/style.css">
