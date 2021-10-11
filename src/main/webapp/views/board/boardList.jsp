@@ -206,7 +206,7 @@ div#frame a:hover.note {
     transform: scale(1.1);
 }
 
-/* h2{  color:black;
+/* h2{ 
 	background-image:url('../../travelMaker/resources/images/tape.png');
 	background-repeat:no-repeat;
 	background-size:contain;
