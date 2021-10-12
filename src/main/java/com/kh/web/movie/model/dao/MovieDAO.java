@@ -1,4 +1,4 @@
-//test/
+//test/ // 테스트
 package com.kh.web.movie.model.dao;
 
 
