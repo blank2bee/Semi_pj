@@ -17,7 +17,7 @@
 <body>	
 	<%@ include file="/views/common/banner.jsp" %> 
 	<%@ include file="/views/common/sidebar.jsp" %> 
-	<%@ include file="/views/France-m/movie1.jsp" %> 
+	<%@ include file="/views/movie/UK/pageResource/어바웃타임.jsp" %> 
 	<%@ include file="/views/common/footer.jsp" %> 
 	
 	

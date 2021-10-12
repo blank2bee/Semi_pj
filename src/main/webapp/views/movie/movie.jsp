@@ -83,7 +83,7 @@
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
+                        <a href="/travelMaker/views/movie/France/F-미드나잇.jsp">
                             <img class="movie-img "src="/travelMaker/resources/images/the_tourist.jpg" alt="">
                         </a>
                         <span class="mTitle">투어리스트(The Tourist)</span>
