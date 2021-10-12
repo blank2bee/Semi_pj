@@ -4,7 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>공지사항 상세보기</title>
+<link rel="stylesheet" href="/travelMaker/resources/css/common.css">
+<link rel="stylesheet" href="/travelMaker/resources/css/mapApi.css">
+<link rel="stylesheet" href="/travelMaker/resources/css/style.css">
+
 <style>
 .notice-header {margin-bottom:10px; background:#fff; border:1px solid #ddd}
 .notice-header:after {display:block; clear:both; content:''}
