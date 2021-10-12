@@ -70,7 +70,13 @@
                     </dl>
                 </div>
                 <div class="cont">
-                	<img id="titleImg" src="<%= request.getContextPath() %>/resources/boardUploadFiles/<%= b.getBoardfile() %>">
+                	<div id="ImgfileArea">
+							<% if (b.getBoardfile() != null) { %>
+			                	<img id="titleImg" src="<%= request.getContextPath() %>/resources/boardUploadFiles/<%= b.getBoardfile() %>">							
+							<% } else { %>
+								
+							<% } %>
+							</div>
                     <table>
                         <tr>
                             
