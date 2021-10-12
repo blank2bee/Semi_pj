@@ -66,7 +66,7 @@
 
     <br>
     <p>
-    <img src="../resources/images/로댕미술관.jpg" alt="로댕미술관" align = "left"><br><br> 
+    <img src="../../../../../resources/images/France/place/미드나잇/로댕미술관/로댕미술관.jpg" alt="로댕미술관" align = "left"><br><br> 
     &emsp;&emsp;&emsp;로댕의 대표작인 <생각하는 사람>과 <지옥의 문>, <세 망령들>을 직접 볼 수 있다. <br> 
     &emsp;&emsp;&emsp;드로잉으로 미술을 시작했지만 결국 로댕은 조각에 더 재능이 많았다. <br> 
     &emsp;&emsp;&emsp;그가 만든 실제 크기의 누드 조각은 가만히 보고 있으면 진짜 같아 나도 모르게 민망함이 몰려올 정도. <br>   
@@ -80,16 +80,16 @@
     &emsp;&emsp;&emsp;*입장료 : 10 EUR <br>
     </p>
 
-    <br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
     <div id ="imgtag">
-    <img src="../resources/images/l1.jpg" class = "place"> 
-    <img src="../resources/images/l2.jpg" class = "place"> 
-    <img src="../resources/images/l3.jpg" class = "place"> 
-    <img src="../resources/images/l4.jpg" class = "place"> 
+    <img src="../../../../../resources/images/France/place/미드나잇/로댕미술관/l1.jpg" class = "place"> 
+    <img src="../../../../../resources/images/France/place/미드나잇/로댕미술관/l2.jpg" class = "place"> 
+    <img src="../../../../../resources/images/France/place/미드나잇/로댕미술관/l3.jpg" class = "place"> 
+    <img src="../../../../../resources/images/France/place/미드나잇/로댕미술관/l4.jpg" class = "place"> 
     </div>
     
     <br>
-    <p> 후기 목록 </p>
+    
     
 
      

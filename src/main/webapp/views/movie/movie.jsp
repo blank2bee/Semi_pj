@@ -45,11 +45,18 @@
             <h1 class="moive-list-title">UNITED KINGDOM</h1>
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
+                     <div class="item">
+                        <a href="/travelMaker/views/movie/UK/U-어바웃타임.jsp">
+                            <img class="movie-img "src="/travelMaker/resources/images/UK/어바웃타임.jpg" alt="">
+                        </a>
+                        <span class="mTitle">어바웃 타임(About Time)</span>
+                    </div>
+                    
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
                             <img class="movie-img "src="/travelMaker/resources/images/UK/007.jpg" alt="">
                         </a>
-                        <span class="mTitle">007 사카이폴(007 sky fall)</span>
+                        <span class="mTitle">007 스카이폴(007 sky fall)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
@@ -57,12 +64,7 @@
                         </a>
                         <span class="mTitle">어바웃어보이(About A Boy)</span>
                     </div>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/UK/어바웃타임.jpg" alt="">
-                        </a>
-                        <span class="mTitle">어바웃 타임(About Time)</span>
-                    </div>
+
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
                             <img class="movie-img "src="/travelMaker/resources/images/UK/bridget.jpg" alt="">
@@ -84,6 +86,12 @@
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
                         <a href="/travelMaker/views/movie/France/F-미드나잇.jsp">
+                            <img class="movie-img "src="/travelMaker/resources/images/France/midnight_in_paris.jpg" alt="">
+                        </a>
+                        <span class="mTitle">미드나잇인파리(Midnight In Paris)</span>
+                    </div>
+                    <div class="item">
+                        <a href="/travelMaker/views/movie/France/F-미드나잇.jsp">
                             <img class="movie-img "src="/travelMaker/resources/images/France/the_tourist.jpg" alt="">
                         </a>
                         <span class="mTitle">투어리스트(The Tourist)</span>
@@ -100,12 +108,7 @@
                         </a>
                         <span class="mTitle">레미제라블(Les Miserable)</span>
                     </div>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/midnight_in_paris.jpg" alt="">
-                        </a>
-                        <span class="mTitle">미드나잇인파리(Midnight In Paris)</span>
-                    </div>
+                   
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
                             <img class="movie-img "src="/travelMaker/resources/images/France/Marie Antoinette.jpg" alt="">

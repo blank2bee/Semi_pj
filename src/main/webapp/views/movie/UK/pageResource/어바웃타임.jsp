@@ -43,9 +43,9 @@
 <body>
 <br>
 
-	<form action="/travelMaker/views/like/3_add.jsp" method="post">
+	
     <div id="background">
-    	<input type="hidden" name="productName" value="어바웃 타임">
+    	<input type="hidden" name="productName" value="미드나잇 인 파리">
         
         <div id="country">
             
@@ -63,28 +63,28 @@
         
         <h1><ins>영화 속 명소</ins></h1> 
     <div id= "mp">
-    <a href = "views/F-M1.jsp" class="place rotate1">
-        <img src="../../../resources/images/UK/place/콘웰도시.png" alt="콘웰도시">
+    <a href = "/travelMaker/views/movie/UK/UK-place/어바웃타임/U-M1.jsp" class="place rotate1">
+        <img src="../../../resources/images/UK/place/어바웃타임/보스캐슬/보스캐슬.png" alt="로댕미술관">
         <p>
-            콘웰도시
+            보스캐슬
         </p>
     </a>
-    <a href = "views/F-M2.jsp" class="place rotate2">
-         <img src="../../../resources/images/UK/place/포틀로유나이티드교회.png" alt="포틀로유나이트교회">
+    <a href = "/travelMaker/views/movie/France/France-place/미드나잇/F-M2.jsp" class="place rotate2">
+        <img src="../../../resources/images/UK/place/어바웃타임/오랑주리미술관/오랑주리미술관.png" alt="모네의 정원">
         <p>
-            포틀로유나이티드교회
+           오랑주리 미술관
         </p>
     </a>
     <a href = "#" class="place rotate3">
-       <img src="../../../resources/images/UK/place/보스캐슬.png" alt="보스캐슬">
+        <img src="../../../resources/images/UK/place/어바웃타임/콘웰도시/콘웰도시.png" alt="성당">
         <p>
-          보스캐슬
+          콘웰 도시
         </p>
         </a>
     <a href = "#" class="place rotate4">
-         <img src="../../../resources/images/UK/place/오랑주리미술관.png" alt="오랑주리미술관">
+        <img src="../../../resources/images/UK/place/어바웃타임/포틀로/포틀로유나이티드교회.png" alt="오랑주리">
         <p>
-            오랑주리미술관
+            포틀로유나이티드
         </p>
     </a>
     </div>

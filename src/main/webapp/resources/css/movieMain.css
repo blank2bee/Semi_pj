@@ -36,6 +36,9 @@
     padding: 20px;
     margin-left: 50px;
 }
+span {
+	margin-left : 50px;
+}
 
 .movie-list-wrapper{
     margin-left: 50px;

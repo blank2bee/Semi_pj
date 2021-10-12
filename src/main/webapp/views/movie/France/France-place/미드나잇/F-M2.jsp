@@ -63,7 +63,7 @@
 
     <br>
     <p>
-    <img src="../resources/images/모네의 정원.jpg" alt="로댕미술관" align = "left"><br><br> 
+    <img src="../../../../../resources/images/France/place/모네의 정원/모네의 정원.jpg" alt="로댕미술관" align = "left"><br><br> 
     &emsp;&emsp;&emsp;파리 근교 마을 중 가장 아름다운 곳을 꼽으라면 단연 '모네의 정원'이 있는 지베르니다.  <br> 
     &emsp;&emsp;&emsp;림 그리는 시간 외에는 정원 가꾸기에 몰두했던 모네의 열정이 고스란히 남아 있는 정원은 어느 누구도 반하지 않을 수가 없다. <br> 
     &emsp;&emsp;&emsp;모네의 집을 나오면 아기자기한 갤러리와 카페를 따라 자연스레 발길이 옮겨지는 클로드 모네의 길(Rue de Claude Monet)은 <br>   
@@ -84,9 +84,9 @@
     </p>
 
     <div id ="imgtag">
-    <img src="../resources/images/m1.png" class = "place"> 
-    <img src="../resources/images/m2.png" class = "place"> 
-    <img src="../resources/images/m3.png" class = "place"> 
+    <img src="../../../../../resources/images/France/place/모네의 정원/m1.png" class = "place"> 
+    <img src="../../../../../resources/images/France/place/모네의 정원/m2.png" class = "place"> 
+    <img src="../../../../../resources/images/France/place/모네의 정원/m3.png" class = "place"> 
     
     </div>
     <br>
