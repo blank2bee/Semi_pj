@@ -8,26 +8,38 @@
 <link rel="stylesheet" href="/travelMaker/resources/css/common.css" />
 <script src="/travelMaker/resources/js/jquery-3.6.0.min.js"></script>
 <style>
-	.outer {
-		width:900px;
-		height:500px;
-		background:black;
-		color:white;
-		margin-left:auto;
-		margin-right:auto;
-		margin-top:50px;
+	.outer{
+	width:900px;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
 	}
 	table {
-		padding: 15px;
-		border:1px solid white;
+		padding : 20px;
+		text-align:center;
 	}
 
 	.tableArea {
-		width:500px;
+		width:100%;
 		height:350px;
 		margin-left:auto;
 		margin-right:auto;
 	}
+	
+	form{
+      width: 600px;
+      height: 550px;
+ 
+      margin: auto;
+      padding: 5px;
+
+      border: 10px solid #95c6db;
+      background: white;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    
 </style>
 </head>
 <body>
@@ -36,16 +48,14 @@
 	<%@ include file="/views/common/footer.jsp" %> 
 	
 	<% if ( m != null ) { %>
-	
-		<div class="outer">
-			
-			<br>
-			
-			<h2 align="center">게시글 작성</h2>
-			<div class="tableArea">
-			
+	<!--  -->		
+			<div class="outer">
+			<div align="center">
+				<div>
 				<form action="<%= request.getContextPath() %>/insert.bo"
 				      method="post" enctype="multipart/form-data">
+			<h2 align="center">여행 후기</h2>
+			<p align="center"> 방문하신 장소의 후기를 공유해주세요.</p>
 				      <table>
 				      	<tr>
 				      		<td>제목</td>
@@ -54,7 +64,7 @@
 				      		</td>
 				      	</tr>
 				      	<tr>
-				      		<td>작성자</td>
+				      		<td>글쓴이</td>
 				      		<td colspan="3">
 				      			<%= m.getUserName() %>
 				      			<input type="hidden" name="userId" 
@@ -83,6 +93,7 @@
 				      </div>
 				</form>
 			
+				</div>
 			</div>
 		</div>
 	
