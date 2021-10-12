@@ -5,10 +5,12 @@
 <head>
 <meta charset="UTF-8">
 <title>1:1문의사항</title>
+
 <link rel="stylesheet" href="/travelMaker/resources/css/common.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="/travelMaker/resources/js/jquery-3.6.0.min.js"></script>
 <style>
 /* Google Font CDN Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
@@ -204,47 +206,28 @@
                 <br />운영 시간(평일 09:00~18:00)</p>
       <form action="#">
         <div class="input-box">
-          <input type="text" placeholder="성함 ">
+          <input type="text" placeholder="성함 " required>
         </div>
         <div class="input-box">
-          <input type="text" placeholder="답변 받으실 이메일">
+          <input type="text" placeholder="답변 받으실 이메일" required>
         </div>
         <div class="input-box message-box">
-   <input type="textarea" placeholder="내용을 입력해주세요."> 
+   <input type="textarea" placeholder="내용을 입력해주세요." required> 
         </div>
         <div class="button">
-          <input type="button" value="작성 완료" onclick="insert();">
+          <input type="button" value="작성 완료" onclick="myFunction()">
+          <script>
+function myFunction() {
+  alert("등록 완료!");
+}
+</script>
+          
         </div>
       </form>
     </div>
     </div>
   </div>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 <!-- 	<div id="container">
         <div class="content">
           <div class="visualArea2 inquiryBg">
