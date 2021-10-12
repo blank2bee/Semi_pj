@@ -39,7 +39,7 @@
                         <span class="nav_name">1 : 1 문의</span>
                     </div>
 
-                    <a href="#" class="nav__link">
+                    <a href="/travelMaker/views/member/memberUpdate.jsp" class="nav__link">
                         <ion-icon name="settings-outline" class="nav__icon"></ion-icon>
                         <span class="nav_name">마이페이지</span>
                     </a>
@@ -57,7 +57,7 @@
 	}
     
     function goNotice(){
-		location.href="/travelMaker/selectList.no";
+		location.href="/travelMaker/views/notice/noticeDetail.jsp";
 	}
     
     

@@ -10,7 +10,8 @@
 <link rel="stylesheet" href="/travelMaker/resources/css/style.css">
 
 <style>
-.notice-header {margin-bottom:10px; background:#fff; border:1px solid #ddd}
+
+.notice-header {width: 85%; margin-bottom:10px; background:#fff; border:1px solid #ddd}
 .notice-header:after {display:block; clear:both; content:''}
 .notice-header .title-wrap {padding:20px 20px 10px 20px}
 .notice-header .title-wrap .category-info a {color:#ff8149}
@@ -34,19 +35,21 @@
         <div class="notice-header">
             <div class="title-wrap">
                 <p class="category-info"><a href="/notice">공지사항</a></p>
-                <h2 class="notice-title">[##_notice_rep_title_##]</h2>
+                <h2 class="notice-title">공지사항 제목입니다</h2>
             </div>
             <div class="info-wrap">
                 <ul class="notice-info">
-                    <li class="author"><i class="fa fa-user-circle"></i> [##_notice_rep_author_##]</li>
-                    <li class="date"><i class="fa fa-clock-o"></i> </li>
+                    <li class="author"><i class="fa fa-user-circle"></i>***운영 공지사항***</li>
+                    <li class="date"><i class="fa fa-clock-o"></i></li>
                 </ul>
+            </div>
+            <div class="article">
+            	공지<br>
+            	공지<br>
+            	공지<br>
             </div>
         </div>
  
-        <div class="article">
-            [##_notice_rep_desc_##]
-        </div>
         <!-- //notice view -->
 
 	<%@ include file="../common/footer.jsp" %>
