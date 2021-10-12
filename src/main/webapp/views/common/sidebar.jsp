@@ -26,7 +26,7 @@
 
                     <div class="nav__link collapse" onclick="goList()";>
                         <ion-icon name="folder-outline" class="nav__icon"></ion-icon>
-                        <span class="nav_name">찜 목록</span>
+                        <span class="nav_name">트레일러 감상 </span>
                     </div>
 
                     <a onclick="goNotice()" class="nav__link">
