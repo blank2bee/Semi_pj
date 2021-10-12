@@ -62,7 +62,7 @@
     
     
     function goList(){
-		location.href="/travelMaker/selectList.mo";
+		location.href="/travelMaker/views/myinfo/trailer.jsp";
 	}
     function goMan(){
 		location.href="/travelMaker/views/myinfo/mantoman.jsp";
