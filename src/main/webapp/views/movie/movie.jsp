@@ -91,7 +91,7 @@
                         <a href="/travelMaker/F-movie1.jsp">
                             <img class="movie-img "src="/travelMaker/resources/images/before_sunset.jpg" alt="">
                         </a>
-                        <span class="mTitle">비포 선셋(Before Sunset)</span>
+                        <span class="mTitle">비포 선셋(Before)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
