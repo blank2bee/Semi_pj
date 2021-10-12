@@ -31,6 +31,7 @@
 		margin-right:auto;
 		margin-top:50px;
 		
+		
 	
 	}
 	table {
@@ -319,6 +320,11 @@ div#frame a:hover.note {
           .button-82-pushable:focus:not(:focus-visible) {
             outline: none;
           }
+          
+          .Area {
+         
+          height: 160px;
+          }
         
         
 
@@ -352,6 +358,7 @@ text-transform: uppercase; color: #33FFCC; cursor: pointer; border: 3px solid;
 		 
 		 	<% for(Board b : list) { %>
 			    <a class="note sticky2">
+			    <div class = "Area">
                 <div class='pin'></div>
 				  <div class='text'>
 					<input type="hidden" value="<%= b.getBno() %>">
@@ -368,6 +375,7 @@ text-transform: uppercase; color: #33FFCC; cursor: pointer; border: 3px solid;
 					  
 					<% } %> --%>
 					 </div>
+					 </div>
 			</a>
 				<% } %>
 
@@ -377,7 +385,7 @@ text-transform: uppercase; color: #33FFCC; cursor: pointer; border: 3px solid;
 		
 			</div>
 				</div>
-					</div>
+					
 		
 		
 		
@@ -473,7 +481,7 @@ text-transform: uppercase; color: #33FFCC; cursor: pointer; border: 3px solid;
 				
 				<script>
 					$(function(){
-						$('.sticky2').click(function(){
+						$('.Area').click(function(){
 							var bno = $(this).parent().find('input').val();
 							location.href = "<%= request.getContextPath() %>/selectOne.bo?bno=" + bno;
 						});
@@ -483,7 +491,7 @@ text-transform: uppercase; color: #33FFCC; cursor: pointer; border: 3px solid;
 			
 
   </div>
-		
+		</div>
 
 <br />
 <br />
