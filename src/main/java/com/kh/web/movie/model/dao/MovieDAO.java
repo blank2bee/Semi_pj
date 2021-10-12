@@ -1,4 +1,4 @@
-//test/
+//test/ // 테스트
 package com.kh.web.movie.model.dao;
 
 
@@ -28,7 +28,7 @@ public class MovieDAO {
 			e.printStackTrace();
 		}
 	}
-
+// 
 	public int getListCount(Connection con) {
 		int result = 0;
 		PreparedStatement ps = null;
