@@ -9,6 +9,224 @@
 <script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
 <link rel="stylesheet" href="/travelMaker/resources/css/common.css">
 <style>
+	 * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+
+      color: #04a5db;
+      font-size: 15px;
+    }
+
+    input,
+    textarea,
+    button {
+      color: black;
+      font-size: 15px;
+    }
+
+    input:focus,
+    textarea:focus,
+    button:focus {
+      outline: none;
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    h3 {
+      margin: 0 0 12px 0;
+
+      font-size: 45px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    p {
+      padding: 0 10px;
+      margin: 0 0 20px 0;
+
+      text-align: center;
+      line-height: 1.8;
+    }
+
+    .wrapper {
+     width: 1400px;
+     height: 1000px;
+     align-items : centerpx;
+      
+    }
+
+    .form-container {
+      width: 600px;
+      height: 1000px;
+      
+
+      margin: auto;
+      padding: 70px 100px 80px;
+
+      border: 10px solid #95c6db;
+      background: white;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .form-group {
+      position: relative;
+
+      display: block;
+
+      margin-bottom: 28px;
+    }
+
+    .form-group span {
+      position: absolute;
+      top: 11px;
+
+      color: #04a5db;
+      font-size: 15px;
+      cursor: text;
+      transition: all 0.2s ease;
+      transform-origin: 0 0;
+    }
+
+    .form-group span.border {
+      position: absolute;
+      left: 0;
+      top: 41px;
+
+      width: 100%;
+      height: 2px;
+      
+      display: block;
+      background: #ffffff;
+      transform: scaleX(0);
+      transition: all 0.15s ease;
+    }
+    
+    #joinBtn, #goMain {
+    width: 110px;
+    height: 40px;
+	margin-top: 60px;
+	color: black;
+	
+	
+	}
+
+    .form-control {
+      width: 100%;
+      height: 43px;
+
+      display: block;
+
+      font-size: 15px;
+      border: none;
+      border-bottom: 2px solid #04a5db;
+      background: none;
+    }
+
+    .form-control:focus,
+    .form-control:valid {
+      border-bottom: 2px solid #ffffff;
+    }
+
+    .form-control:focus + span,
+    .form-control:valid + span {
+      transform: translateY(-22px) scale(0.8);
+    }
+
+    .form-control:focus + span + .border,
+    .form-control:valid + span + .border {
+      transform: scaleX(1);
+    }
+
+    textarea.form-control {
+      padding: 13px 1px;
+    }
+    
+    #ckZip {
+    margin-left: 110px;
+   width: 100px;
+   height: 30px;
+   color: black;
+  
+   
+    }
+
+    button[type="submit"] {
+      width: 162px;
+      height: 51px;
+    
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      margin: 60px auto 0;
+      padding: 0;
+
+      color: #ffffff;
+      border: 2px solid #ffffff;
+      border-radius: 4px;
+      background-color: #39459b;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: background-color 0.2s linear;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #299cd1;
+    }
+	#idCheck, #ckZip, #goMain, #updateBtn, #deleteBtn {
+		background:#299cd1;
+		border-radius:5px;
+		width:80px;
+		height:25px;
+		text-align:center;
+	}
+
+	#idCheck:hover, #ckZip:hover, #updateBtn:hover, #deleteBtn:hover, #goMain:hover {
+		cursor:pointer;
+	}
+	
+	td {
+		text-align:right;
+	}
+	#ckZip, #updateBtn {
+		background:#299cd1;
+	}
+	#updateBtn, #goMain, #deleteBtn {
+		display:inline-block;
+		color:black;
+	}
+	
+    @media(max-width:767px) {
+      h3 {
+        font-size: 38px
+      }
+
+      p {
+        padding: 0;
+        font-size: 14px;
+      }
+
+      .wrapper {
+        background: #39459b;
+        border: 10px solid #95c6db;
+      }
+
+      .form-container {
+        width: 100%;
+
+        padding: 24px;
+        
+        border: none;
+        box-shadow: none;
+      }
+    
+    /*
 	section {
 		width : 700px;
 		height: auto;
@@ -20,32 +238,15 @@
 		padding : 5px;
 	}
 		
-	#idCheck, #ckZip, #goMain, #updateBtn, #deleteBtn {
-		background:orangered;
-		border-radius:5px;
-		width:80px;
-		height:25px;
-		text-align:center;
-	}
 	
-	#idCheck:hover, #ckZip:hover, #updateBtn:hover, #deleteBtn:hover, #goMain:hover {
-		cursor:pointer;
-	}
-	td {
-		text-align:right;
-	}
-	#ckZip, #updateBtn {
-		background:yellowgreen;
-	}
-	#updateBtn, #goMain, #deleteBtn {
-		display:inline-block;
-	}
+    */
 </style>
 </head>
 <body>
 	<%@ include file="../common/banner.jsp" %>
 	
-	<section>
+	 <div class="wrapper">
+    <div class="form-container">
 		<br>
 		<h2 align="center">회원 정보 수정</h2>
 		
@@ -53,7 +254,7 @@
 		 			
 			<table align="center">
 				<tr>
-					<td width="200px">* 아이디 </td>
+					<span>* 아이디</span>
 					<td style="text-align: left; padding-left: 50px;"> <%= m.getUserId() %> </td>
 					<td width="200px"></td>
 				</tr>
@@ -125,8 +326,10 @@
 				<div id="deleteBtn" onclick="deleteMember();">탈퇴하기</div>
 			</div>
 		</form>
-	
-	</section>
+	    </div>
+  </div>
+  
+  
 	<script>
 	
 	// 참조 API : http://postcode.map.daum.net/guide
