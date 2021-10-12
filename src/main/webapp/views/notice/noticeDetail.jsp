@@ -11,7 +11,7 @@
 
 <style>
 
-.notice-header {width: 85%; margin-bottom:10px; background:#fff; border:1px solid #ddd}
+.notice-header {width: 85%; margin-bottom:10px; background:#fff; border:1px solid #ddd }
 .notice-header:after {display:block; clear:both; content:''}
 .notice-header .title-wrap {padding:20px 20px 10px 20px}
 .notice-header .title-wrap .category-info a {color:#ff8149}
@@ -22,6 +22,7 @@
 .notice-header .info-wrap .notice-info:after {display:block; clear:both; content:''}
 .notice-header .info-wrap .notice-info li {margin-right:15px; float:left; font-size:0.875em; color:#fff5f0}
 .notice-header .info-wrap .notice-info li i {margin-right:4px; color:#fff}
+
 
 </style>
 </head>

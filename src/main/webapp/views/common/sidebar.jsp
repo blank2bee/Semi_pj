@@ -44,7 +44,7 @@
                         <span class="nav_name">마이페이지</span>
                     </a>
                 </div>
-                <a href="#" class="nav__link">
+                <a onclick='logout()' class="nav__link">
                     <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
                     <span class="nav_name">로그아웃</span>
                 </a>
