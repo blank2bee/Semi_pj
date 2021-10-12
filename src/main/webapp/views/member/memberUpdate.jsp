@@ -62,8 +62,8 @@
     }
 
     .form-container {
-      width: 600px;
-      height: 1000px;
+      width: 800px;
+      height: 650px;
       
 
       margin: auto;
@@ -243,7 +243,9 @@
 </style>
 </head>
 <body>
-	<%@ include file="../common/banner.jsp" %>
+		<%@ include file="/views/common/banner.jsp" %>
+	<%@ include file="/views/common/sidebar.jsp" %>  
+	<%@ include file="/views/common/footer.jsp" %> 
 	
 	 <div class="wrapper">
     <div class="form-container">
@@ -254,17 +256,18 @@
 		 			
 			<table align="center">
 				<tr>
-					<span>* 아이디</span>
+					<td>* 아이디</td>
 					<td style="text-align: left; padding-left: 50px;"> <%= m.getUserId() %> </td>
-					<td width="200px"></td>
-				</tr>
-				<tr>
-					<td>* 변경할 비밀번호</td>
-					<td><input type="password" id="userPwd" name="userPwd" required="required"></td>
+					<td width="20px"></td>
 					<td></td>
 				</tr>
 				<tr>
-					<td>* 비밀번호확인</td>
+					<td>* 변경할 비밀번호</td>
+					<td ><input type="password" id="userPwd" name="userPwd" required="required"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>* 비밀번호 </td>
 					<td><input type="password" id="userPwd2" name="userPwd2"></td>
 					<td><label id="pwdResult"></label></td>
 				</tr>
