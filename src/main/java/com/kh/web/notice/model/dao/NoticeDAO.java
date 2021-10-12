@@ -77,7 +77,6 @@ public class NoticeDAO {
 				Notice n = new Notice();
 				
 				n.setNno( rs.getInt("nno"));
-				n.setNoticetype( rs.getInt("noticetype"));
 				n.setNtitle( rs.getString("ntitle"));
 				n.setNcontent(rs.getString("ncontent"));
 				n.setNwriter( rs.getString("nwriter"));
@@ -142,7 +141,6 @@ public class NoticeDAO {
 				n = new Notice();
 				
 				n.setNno( rs.getInt("nno"));
-				n.setNoticetype( rs.getInt("noticetype"));
 				n.setNtitle( rs.getString("ntitle"));
 				n.setNcontent( rs.getString("ncontent"));
 				n.setNwriter( rs.getString("nwriter"));

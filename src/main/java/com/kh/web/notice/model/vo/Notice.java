@@ -8,7 +8,6 @@ public class Notice implements Serializable {
 	private static final long serialVersionUID = 1050L;
 	
 	private int nno;
-	private int noticetype;
 	private String ntitle;
 	private String ncontent;
 	private String nwriter;
@@ -31,7 +30,6 @@ public class Notice implements Serializable {
 			String noticefile, Date ndate, String status) {
 		super();
 		this.nno = nno;
-		this.noticetype = noticetype;
 		this.ntitle = ntitle;
 		this.ncontent = ncontent;
 		this.nwriter = nwriter;
@@ -43,7 +41,7 @@ public class Notice implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Notice [nno=" + nno + ", noticetype=" + noticetype + ", ntitle=" + ntitle + ", ncontent=" + ncontent
+		return "Notice [nno=" + nno + ", ntitle=" + ntitle + ", ncontent=" + ncontent
 				+ ", nwriter=" + nwriter + ", ncount=" + ncount + ", noticefile=" + noticefile + ", ndate=" + ndate
 				+ ", status=" + status + "]";
 	}
@@ -56,13 +54,6 @@ public class Notice implements Serializable {
 		this.nno = nno;
 	}
 
-	public int getNoticetype() {
-		return noticetype;
-	}
-
-	public void setNoticetype(int noticetype) {
-		this.noticetype = noticetype;
-	}
 
 	public String getNtitle() {
 		return ntitle;
