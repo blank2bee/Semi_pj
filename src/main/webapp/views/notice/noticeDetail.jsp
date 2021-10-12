@@ -35,7 +35,7 @@
         <div class="notice-header">
             <div class="title-wrap">
                 <p class="category-info"><a href="/notice">공지사항</a></p>
-                <h2 class="notice-title">공지사항 제목입니다</h2>
+                <h2 class="notice-title">[안내] Travel Maker SNS 사칭주의 안내</h2>
             </div>
             <div class="info-wrap">
                 <ul class="notice-info">
@@ -44,9 +44,25 @@
                 </ul>
             </div>
             <div class="article">
-            	공지<br>
-            	공지<br>
-            	공지<br>
+            	<br />
+            	<br />
+            	<br />
+            	안녕하세요. TravelMaker입니다. 
+				최근 TravelMaker를 사칭하는 인스타그램 계정이 확인되어 안내드립니다.<br />
+    			현재 TravelMaker를 사칭한 계정이 인스타그램을 통해 주의를 요하는 
+    			링크 클릭 및 결제 카드 번호등을 요구하고 있습니다.<br />
+				TravelMaker은 해당 사안과는 전혀 무관하며, 
+				TravelMaker은 절대 결제 카드 등록을 요구하지 않습니다.<br />
+				TravelMaker 인스타그램은 영문 채널인@travelmaker_official 계정과
+				일문 채널인@travelmaker_official_jp 으로만 운영되고 있습니다.<br />
+				안내드리는 TravelMaker 공식 인스타그램 아이디를 확인하셔서
+				사칭으로 인해 피해를 입는 분들이 없으시길 바랍니다.
+				<br />
+				감사합니다.
+				<br />
+				<br />
+				<br />
+				<br />
             </div>
         </div>
  
