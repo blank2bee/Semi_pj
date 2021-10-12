@@ -60,7 +60,7 @@
                         <a href="/travelMaker/F-movie1.jsp">
                             <img class="movie-img "src="/travelMaker/resources/images/aboutTime.jpg" alt="">
                         </a>
-                        <span class="mTitle">어바웃 타임(About)</span>
+                        <span class="mTitle">어바웃 타임(About Time)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
