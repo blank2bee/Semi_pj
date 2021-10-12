@@ -36,6 +36,10 @@
 		width:700px;
 		height:400px;
 	}
+	
+	#board_view_wrap{
+		border-radius: 30%;
+	}
 </style>
 </head>
 <body>
@@ -44,7 +48,7 @@
 	<%@ include file="/views/common/sidebar.jsp" %>  
 
 		<div class="board_wrap">
-        <div class="board_view_wrap">
+        <div class="board_view_wrap" >
             <div class="board_view">
                 <div class="title">
                     <%= b.getBtitle() %>
@@ -70,8 +74,14 @@
                     </dl>
                 </div>
                 <div class="cont">
-                	<img id="titleImg" src="<%= request.getContextPath() %>/resources/boardUploadFiles/<%= b.getBoardfile() %>">
-                    <table>
+                	<div id="ImgfileArea">
+							<% if (b.getBoardfile() != null) { %>
+			                	<img id="titleImg" src="<%= request.getContextPath() %>/resources/boardUploadFiles/<%= b.getBoardfile() %>">							
+							<% } else { %>
+								
+							<% } %>
+							</div>
+                    <table width="800px" >
                         <tr>
                             
                         </tr>
@@ -83,9 +93,9 @@
                         </tr>
                         
                         <tr>           
-                            <td height="400" valign="top" style="padding:5px; ">
+                            <td height="400" width="600px" valign="top" style="padding:5px; ">
                             <div class="map_wrap">
-						    <div id="map" style="width:700px; height:400px; position:relative;overflow:hidden;"></div>
+						    <div id="map" style="width:855px; height:400px; position:relative;overflow:hidden;"></div>
 						    <div id="menu_wrap" class="bg_white">
 						        <div class="option" >
 						            <div>
