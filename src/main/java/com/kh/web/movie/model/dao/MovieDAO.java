@@ -28,7 +28,7 @@ public class MovieDAO {
 			e.printStackTrace();
 		}
 	}
-
+// 
 	public int getListCount(Connection con) {
 		int result = 0;
 		PreparedStatement ps = null;
