@@ -1,7 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8" %>
-
-    
 <!DOCTYPE html>
 <html>
 <head>
@@ -68,7 +66,7 @@
 				      	<tr>
 				      		<td>글쓴이</td>
 				      		<td colspan="3">
-				      			<%= m.getUserName() %>
+				      			<%= n.getUserName() %>
 				      			<input type="hidden" name="userId" 
 				      			       value="<%= n.getUserId() %>" />
 				      		</td>
