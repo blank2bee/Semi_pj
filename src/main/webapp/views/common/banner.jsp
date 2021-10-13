@@ -33,7 +33,7 @@
 			<div id="loginBtn" onclick='login()'>로그인</div> 
 		</div>
 	</form>
-	
+	<br><br>
 	<script>
 		function enterKey(){
 			if(window.event.keyCode == 13) {
@@ -52,7 +52,7 @@
 	<% } %>
 </div>
 <hr>
-<br><br>
+
  <script>
 	function login(){
 		$('#loginForm').submit();
