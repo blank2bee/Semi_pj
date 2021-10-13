@@ -35,18 +35,21 @@ img{
 	border: none;
 	text-indent: -9999px;
 	top: 20%;
-	width: 60px;
-	height: 60px;
+	width: 55px;
+	height: 55px;
 	z-index: 100;
 }
 
 .slick-prev{
-	background: url(/travelMaker/resources/images/chevrons-left-solid-24.png) no-repeat 0 0;
+	background: url(/travelMaker/resources/images/left.png) no-repeat 0 0;
+	background-size: 100% 100%;
+	
 }
 
 
 .slick-next{
-	background: url(/travelMaker/resources/images/chevrons-right-solid-24.png) no-repeat 0 0;
+	background: url(/travelMaker/resources/images/right.png) no-repeat 0 0;
+	background-size: 100% 100%;	
 	left: 90%;
 }
 
