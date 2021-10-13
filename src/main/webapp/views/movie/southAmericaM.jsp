@@ -33,56 +33,55 @@
             <div class="featured-content" 
             style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515),
             url('/travelMaker/resources/images/pexels-pixabay-220201.jpg');">
-                <h1 class="country">NORTH AMERICA(북아메리카)</h1>
+                <h1 class="country">SOUTH AMERICA(남아메리카)</h1>
                 <p class="desc">
-					정치, 경제, 사회 등의 측면을 기준으로 할 때 북미는 미국과 캐나다, 즉 앵글로아메리카를 가리킨다. 2개국을 포함한 GNP는 
-					세계의 약 28%(1996)를 차지한다. 또한 모두 민주주의의 역사가 오래된 선진공업국으로 선진국정상회의의 참가국으로서 정치ㆍ경제의 
-					각 방면에서 세계에 큰 영향을 미치고 있다. 1994년에 발효한 북미자유무역협정(NAFTA)은 EU의 확대 심화에 대항할 수 있는 
-					자유무역지대 구축의 일환이다.
+                   유럽은 크게 네 지역으로 나뉘어. 스칸디나비아 반도를 포함한 북부 유럽, 일찍부터 산업이 발달한 알프스 산맥 위쪽의 서부 유럽, 
+                   고대 그리스·로마 문화가 꽃피었던 알프스 남쪽의 남부 유럽, 그리고 과거 사회주의 국가가 많았던 동부 유럽으로 나뉘지.유럽은 민족과 문화가 다양하지만, 
+                   최근에는 여러 나라들이 유럽 연합(EU)을 중심으로 하나의 유럽으로 통합되고 있어.
                 </p>
             </div>
         </div>
         <div class="movie-list-container">
-            <h1 class="moive-list-title">BRAZIL(브라질)</h1>
+            <h1 class="moive-list-title">UNITED KINGDOM(영국)</h1>
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                      <div class="item">
                         <a href="/travelMaker/views/movie/UK/U-어바웃타임.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/USA/ocean.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/UK/어바웃타임.jpg" alt="">
                         </a>
-                        <span class="mTitle">오션 일레븐(Ocean 11)</span>
+                        <span class="mTitle">어바웃 타임(About Time)</span>
                     </div>
                     
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/USA/spider-man.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/UK/007.jpg" alt="">
                         </a>
-                        <span class="mTitle">어메이징 스파이더맨2(Amazing Spider-man2)</span>
+                        <span class="mTitle">007 스카이폴(007 sky fall)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/USA/bumbleBee.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/UK/aboutBoy.jpg" alt="">
                         </a>
-                        <span class="mTitle">범블비(BumbleBee)</span>
+                        <span class="mTitle">어바웃어보이(About A Boy)</span>
                     </div>
 
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/USA/badBoy.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/UK/bridget.jpg" alt="">
                         </a>
-                        <span class="mTitle">나쁜녀석들: 포에버(Bad Boy: For Life)</span>
+                        <span class="mTitle"> 브리짓 존스의 일기(Bridget Jones Diary)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/USA/laLa.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/UK/closer.jpg" alt="">
                         </a>
-                        <span class="mTitle">라라랜드(LaLa Land)</span>
+                        <span class="mTitle">클로저(Closer)</span>
                     </div>
                 </div>
             </div>  
         </div>
         <div class="movie-list-container">
-            <h1 class="moive-list-title">Argentina(아르헨티나)</h1>
+            <h1 class="moive-list-title">FRANCE(프랑스)</h1>
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
@@ -120,7 +119,7 @@
             </div>  
         </div>
         <div class="movie-list-container">
-            <h1 class="moive-list-title">CHILE(칠레)</h1>
+            <h1 class="moive-list-title">ITALY(이탈리아)</h1>
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
@@ -157,7 +156,7 @@
             </div>  
         </div>
         <div class="movie-list-container">
-            <h1 class="moive-list-title">COLOMBIA(콜롬비아)</h1>
+            <h1 class="moive-list-title">GERMANY(독일)</h1>
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
