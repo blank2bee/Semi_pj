@@ -44,14 +44,16 @@
 	<% } else { %>
 		<div id="userInfo">	
 			<div class="btns" align=center>
-				<label><%= m.getUserName() %>님의 방문을 환영합니다. </label><br>
+				<label><%= m.getUserName() %>님 환영합니다. </label><br>
 				<div id="changeInfo" onclick="changeInfo()">정보수정</div>
 				<div id="logoutBtn" onclick='logout()'>로그아웃</div> 
 			</div>	
 		</div>
 	<% } %>
 </div>
-<hr>
+
+<br><br>
+
  <script>
 	function login(){
 		$('#loginForm').submit();
