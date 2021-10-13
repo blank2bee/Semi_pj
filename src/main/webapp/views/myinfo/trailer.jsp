@@ -44,7 +44,7 @@ text-align:center;
 
 
   
- <iframe width="800px" height="500px" src="https://www.youtube.com/embed/pe4SL0-x8nY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <iframe width="800px" height="500px" src="https://www.youtube.com/embed/pe4SL0-x8nY" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
  </div> 
     <dl id="player_text">
@@ -59,7 +59,7 @@ text-align:center;
      <dd class="thumb"><a href="#"><img id= "film" src="../../resources/images/black.png" alt="film"><span class="time">01:55</span></a><em></em></dd>
         <dt><a href="#">브리짓 존스의 일기 [영국 미국]</a></dt>
         <dd class="desc"><a href="#">주연 : 르네 젤위거 </a></dd>
-        <dd class="url"><iframe src='https://tv.naver.com/embed/20254692?autoPlay=true' frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='544' HEIGHT='306' allow='autoplay' allowfullscreen></iframe>
+        <dd class="url"><iframe src='https://tv.naver.com/embed/20254692?autoPlay=true' frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='544' HEIGHT='306' allowfullscreen></iframe>
  </dd>
     </dl>
 
@@ -69,7 +69,7 @@ text-align:center;
         <dt><a href="#">그랜드 부다 페스트 호텔 [독일]</a></dt>
         <dd class="desc"><a href="#">주연 : 틸다 스윈튼</a></dd>
         <dd class="url">
-        <iframe src='https://tv.naver.com/embed/4236417?autoPlay=true' frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='544' HEIGHT='306' allow='autoplay' allowfullscreen></iframe>
+        <iframe src='https://tv.naver.com/embed/4236417?autoPlay=true' frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='544' HEIGHT='306' allowfullscreen></iframe>
         </dd>
     </dl>
      <dl class="movs">
@@ -77,7 +77,7 @@ text-align:center;
         <dt><a href="#">라라랜드 [미국]</a></dt>
         <dd class="desc"><a href="#">주연 : 라이언 고슬링</a></dd>
         <dd class="url">
-<iframe src='https://tv.naver.com/embed/1164584?autoPlay=true' frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='544' HEIGHT='306' allow='autoplay' allowfullscreen></iframe>
+<iframe src='https://tv.naver.com/embed/1164584?autoPlay=true' frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='544' HEIGHT='306' allowfullscreen></iframe>
         </dd>
     </dl>
      <dl class="movs">
@@ -85,7 +85,7 @@ text-align:center;
         <dt><a href="#">존윅 리로드 [이탈리아]</a></dt>
         <dd class="desc"><a href="#">주연 : 키아누 리브스</a></dd>
         <dd class="url">
-       <iframe src='https://tv.naver.com/embed/15317451?autoPlay=true' frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='544' HEIGHT='306' allow='autoplay' allowfullscreen></iframe>
+       <iframe src='https://tv.naver.com/embed/15317451?autoPlay=true' frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='544' HEIGHT='306' allowfullscreen></iframe>
         </dd>
     </dl>
      <dl class="movs">
@@ -93,7 +93,7 @@ text-align:center;
         <dt><a href="#">미드나잇 인 파리 [프랑스]</a></dt>
         <dd class="desc"><a href="#">주연 : 오웬 윌슨</a></dd>
         <dd class="url">
-  <iframe src='https://tv.naver.com/embed/1200600?autoPlay=true' frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='544' HEIGHT='306' allow='autoplay' allowfullscreen></iframe>
+  <iframe src='https://tv.naver.com/embed/1200600?autoPlay=true' frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='544' HEIGHT='306' allowfullscreen></iframe>
         </dd>
     </dl>
      <dl class="movs">
@@ -101,7 +101,7 @@ text-align:center;
         <dt><a href="#">냉정과 열정 사이 [이탈리아] </a></dt>
         <dd class="desc"><a href="#">주연 : 다케노우치 유타카</a></dd>
         <dd class="url">
-       <iframe src='https://tv.naver.com/embed/827260?autoPlay=true' frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='544' HEIGHT='306' allow='autoplay' allowfullscreen></iframe>
+       <iframe src='https://tv.naver.com/embed/827260?autoPlay=true' frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='544' HEIGHT='306' allowfullscreen></iframe>
         </dd>
     </dl>
      <dl class="movs">
@@ -109,7 +109,7 @@ text-align:center;
         <dt><a href="#">화양연화 [홍콩]</a></dt>
         <dd class="desc"><a href="#">주연 : 장만옥</a></dd>
         <dd class="url">
-<iframe src='https://tv.naver.com/embed/17073374?autoPlay=true' frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='544' HEIGHT='306' allow='autoplay' allowfullscreen></iframe>
+<iframe src='https://tv.naver.com/embed/17073374?autoPlay=true' frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='544' HEIGHT='306' allowfullscreen></iframe>
         </dd>
     </dl>
      <dl class="movs">
@@ -117,7 +117,7 @@ text-align:center;
         <dt><a href="#">리틀 포레스트 [한국]</a></dt>
         <dd class="desc"><a href="#">주연 : 김태리</a></dd>
         <dd class="url">
-   <iframe src='https://tv.naver.com/embed/2641764?autoPlay=true' frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='544' HEIGHT='306' allow='autoplay' allowfullscreen></iframe>
+   <iframe src='https://tv.naver.com/embed/2641764?autoPlay=true' frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='544' HEIGHT='306' allowfullscreen></iframe>
         </dd>
     </dl>
        <dl class="movs">
@@ -125,7 +125,7 @@ text-align:center;
         <dt><a href="#">러브레터 [일본]</a></dt>
         <dd class="desc"><a href="#">주연 : 나카야마 미호 </a></dd>
         <dd class="url">
-       <iframe src='https://tv.naver.com/embed/11337293?autoPlay=true' frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='544' HEIGHT='306' allow='autoplay' allowfullscreen></iframe>
+       <iframe src='https://tv.naver.com/embed/11337293?autoPlay=true' frameborder='no' scrolling='no' marginwidth='0' marginheight='0' WIDTH='544' HEIGHT='306' allowfullscreen></iframe>
         </dd>
     </dl>
 
@@ -135,9 +135,9 @@ $('#player_screen .top_img').on('click', function(e) { // 플레이어 영역을
   e.preventDefault(); // 일단 a태그에 걸린 링크는 무시하고
   var $item_top = $("#player_screen").find("iframe").attr("src"); // 플레이어 영역에 넣은 iframe의 주소를 찾아서 $item_top 로 간직하고 있다가
   $('#player_screen .top_img').fadeOut("slow"); // 플레이어 영역을 덮은 이미지를 천천히 페이드처리하고
-  $('#player_screen iframe').show().attr("src",$item_top + "&autoplay=1"); // 플레이어 영역의 iframe 주소에 autoplay 코드를 추가해서 변경
+  $('#player_screen iframe').show().attr("src",$item_top ); // 플레이어 영역의 iframe 주소에 autoplay 코드를 추가해서 변경
  });
- 
+/* +"&autoplay=1" */
  
  $('#list .movs a').on('click', function(e) { // 썸네일 영역의 a 링크들을 클릭하면
   e.preventDefault(); // 일단 a태그에 걸린 링크는 무시하고
@@ -154,7 +154,7 @@ $('#player_screen .top_img').on('click', function(e) { // 플레이어 영역을
    //console.log($itemx_url); 
 
   $('#player_screen .top_img').hide(); // 커버 이미지를 감춥니다. 
-  $('#player_screen iframe').attr("src",$itemx_url + "&autoplay=1"); // 플레이어 영역의 iframe에 아까 지정해두었던 iframe주소와 자동실행 코드를 넣어줍니다. 동영상이 재생됩니다.
+  $('#player_screen iframe').attr("src",$itemx_url ); // 플레이어 영역의 iframe에 아까 지정해두었던 iframe주소와 자동실행 코드를 넣어줍니다. 동영상이 재생됩니다.
   $('#player_screen iframe').show(); // 만약 iframe이 감춰져 있었다면, 이 코드를 통해 보여지게 됩니다.
   $('#player_text dt').html( $itemx_tit ); // 플레이어 영역의 제목 부분에 썸네일에 있던 제목을 그대로 가져와 넣어줍니다.
   $('#player_text dd').html( $itemx_desc ); // 플레이어 영역의 설명 부분에 썸네일에 있던 설명을 그대로 가져와 넣어줍니다.
