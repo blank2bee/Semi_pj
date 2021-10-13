@@ -64,14 +64,14 @@
         <h1><ins>영화 속 명소</ins></h1> 
     <div id= "mp">
     
-    <a href = "#" class="place rotate1">
+    <a href = "/travelMaker/views/movie/UK/UK-place/어바웃타임/U-M1.jsp" class="place rotate1">
         <img src="../../../resources/images/UK/place/어바웃타임/콘웰도시/콘웰도시.png" alt="성당">
         <p>
-          콘웰 도시
+          콘월 도시
         </p>
         </a>
         
-    <a href = "#" class="place rotate2">
+    <a href = "/travelMaker/views/movie/UK/UK-place/어바웃타임/U-M2.jsp" class="place rotate2">
         <img src="../../../resources/images/UK/place/어바웃타임/포틀로/포틀로유나이티드교회.png" alt="오랑주리">
         <p>
             포틀로유나이티드

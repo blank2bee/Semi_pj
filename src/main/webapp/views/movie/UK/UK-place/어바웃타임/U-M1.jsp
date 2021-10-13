@@ -62,30 +62,27 @@
 	<%@ include file="/views/common/sidebar.jsp" %> 
 	<%@ include file="/views/common/footer.jsp" %> 
 	
-<h1>로댕 미술관</h1>
+<h1>콘월 도시</h1>
 
     <br>
     <p>
-    <img src="../../../../../resources/images/France/place/미드나잇/로댕미술관/로댕미술관.jpg" alt="로댕미술관" align = "left"><br><br> 
-    &emsp;&emsp;&emsp;로댕의 대표작인 <생각하는 사람>과 <지옥의 문>, <세 망령들>을 직접 볼 수 있다. <br> 
-    &emsp;&emsp;&emsp;드로잉으로 미술을 시작했지만 결국 로댕은 조각에 더 재능이 많았다. <br> 
-    &emsp;&emsp;&emsp;그가 만든 실제 크기의 누드 조각은 가만히 보고 있으면 진짜 같아 나도 모르게 민망함이 몰려올 정도. <br>   
-    &emsp;&emsp;&emsp;정원의 호숫가에는 그가 만든 빅토르 위고 조각상이, 전시실에는 그가 문인협회로부터 의뢰를 받아 만든 <br>  
-    &emsp;&emsp;&emsp;발자크의 흉상이 시리즈로 전시되어 있다. 한적하게 로댕의 조각들 사이를 거닐다가 차 한잔에 예쁜 디저트를 <br> 
-    &emsp;&emsp;&emsp;먹을 수 있는 카페가 있는 정원의 아름다움은 파리에서 손꼽힐 정도. 정원에만 입장할 수 있는 티켓(€4)이 따로 있다. <br><br>
-   
-    &emsp;&emsp;&emsp;*영업시간 : 화~일 10:00~17:45 월 휴무 <br>
-    &emsp;&emsp;&emsp;*주소 : 77 Rue de Varenne, 75007 <br>
-    &emsp;&emsp;&emsp;*가는 법 : Varenne 역에서 도보 2분 <br>
-    &emsp;&emsp;&emsp;*입장료 : 10 EUR <br>
+    <img src="../../../../../resources/images/UK/place/어바웃타임/콘웰도시/콘웰도시.png" alt="콘월도시" align = "left"><br><br> 
+    &emsp;&emsp;&emsp;영국 잉글랜드 남서부에 있는 주(country.) <br> 
+    &emsp;&emsp;&emsp;주도(county town)는 보드민[Bodmin, 행정기관은 트루로(Truto)에 있다]이다. 정식명칭은 콘월아일스오브실리 <br> 
+    &emsp;&emsp;&emsp;(Cornwall and Isles of Scilly)라고 한다. 지명은 ‘콘월의 웰스인(人)’을 뜻하는 고대 영어에서 유래한다. <br>   
+    &emsp;&emsp;&emsp;영국해협 사이에 있는 콘월반도를 차지하며, 조산운동과 화강암의 관입(貫入) 때문에 지표는 기복이 심하다. <br>  
+    &emsp;&emsp;&emsp;대부분이 해발고도 200m 안팎의 황량한 구릉지대를 이루며, 해안은 심한 <br> 
+    &emsp;&emsp;&emsp;해식(海蝕)을 받은 리아스식 해안으로 단애·만(灣)·곶(串)이 늘어서 있고 기후가 온화하여 많은 관광객이 모여든다. <br><br>
+   <br><br><br>
+
     </p>
 
     <br><br><br><br><br><br><br><br><br>
     <div id ="imgtag">
-    <img src="../../../../../resources/images/France/place/미드나잇/로댕미술관/l1.jpg" class = "place"> 
-    <img src="../../../../../resources/images/France/place/미드나잇/로댕미술관/l2.jpg" class = "place"> 
-    <img src="../../../../../resources/images/France/place/미드나잇/로댕미술관/l3.jpg" class = "place"> 
-    <img src="../../../../../resources/images/France/place/미드나잇/로댕미술관/l4.jpg" class = "place"> 
+    <img src="../../../../../resources/images/UK/place/어바웃타임/콘웰도시/l1.jpg" class = "place"> 
+    <img src="../../../../../resources/images/UK/place/어바웃타임/콘웰도시/l2.jpg" class = "place"> 
+    <img src="../../../../../resources/images/UK/place/어바웃타임/콘웰도시/l3.jpg" class = "place"> 
+    <img src="../../../../../resources/images/UK/place/어바웃타임/콘웰도시/l4.jpg" class = "place"> 
     </div>
     
     <br>
