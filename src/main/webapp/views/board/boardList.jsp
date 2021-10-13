@@ -348,7 +348,7 @@ text-transform: uppercase; color: #33FFCC; cursor: pointer; border: 3px solid;
 	<%@ include file="/views/common/footer.jsp" %> 
 
 	<div class="outer">
-		<br>
+		
 		<h2 align="center">방문 후기 목록</h2>
 		<div class="frame">
 		
@@ -437,9 +437,7 @@ text-transform: uppercase; color: #33FFCC; cursor: pointer; border: 3px solid;
 		</div>
 		 --%>
 		<%-- 페이지 처리 코드 넣기 --%>
-		<br />
-		<br />
-		<br />
+		<br>
 		<div class="pagingArea" align="center">
 		
 		<button onclick="location.href='<%= request.getContextPath() %>/selectList.bo?currentPage=1'"><<</button>
@@ -487,15 +485,24 @@ text-transform: uppercase; color: #33FFCC; cursor: pointer; border: 3px solid;
 						});
 					});
 				</script>
-			<% } %>			
+				
+			<% } else { %>
+				<script>
+			$(function(){
+				$('.Area').click(function(){
+					alert("로그인 후 이용해주세요!");
+				});
+			});
+			
+			<% } %>
+			</script>
+						
 			
 
   </div>
 		</div>
 
-<br />
-<br />
-<br />
+<br><br><br><br><br><br><br><br>
 
 	<%@ include file="../common/footer.jsp" %>
 

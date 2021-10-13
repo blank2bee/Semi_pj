@@ -31,11 +31,8 @@
 	<section>
 		<h1>서비스 에러 발생!</h1>
 		<h3 style="color : red;"> ERROR :: <%= msg %> </h3>
-		<p>
-		서비스 수행 중 에러가 발생하였습니다.<br>
-		해당 페이지가 계속 보인다면, 담당자에게 문의 하세요.<br>
-		<br>
-		<a href="/travelMaker/index.jsp">홈 화면으로 돌아가기....</a>
+		
+		<a href="/travelMaker/index.jsp">뒤로가기....</a>
 		
 		</p>
 	</section>

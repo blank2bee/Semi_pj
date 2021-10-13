@@ -13,13 +13,14 @@
 
  body
      {
-     background-color: rgba(0,0,0,0.904);
+     background-color: rgba(0,0,0,904);
 
      }
      
      
-.btns{
+#btns{
 	width : 250px;
+	color: white;
 }
 
 .loginArea{
@@ -247,10 +248,18 @@ a {
 }
 
 .loginArea {
-	
+	height: 230px;
 	margin-left: 1200px;
-	margin-top : 39px;
-	
+	margin-top : 2px;
+	background-color: rgba(0,0,0,0.904);
+	border-right:none;
+
+	border-left:none;
+
+	border-top:none;
+
+	border-bottom:none;
+
 }
 
 label {
@@ -263,12 +272,14 @@ label {
 	color: white;
 	text-decoration: none;
 	border-radius: 5px;
+	margin-lfet: 50px;
+	margin-top: 110px;
 }
 
 #logoutBtn
 {
-	
+    background: rgb(164, 164, 164);
 }
 #changeInfo {
-	background: yellowgreen;
+	background: rgb(164, 164, 164);
 }
