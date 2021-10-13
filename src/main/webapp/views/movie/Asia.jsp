@@ -126,7 +126,7 @@
                         <a href="#">
                             <img class="movie-img "src="/travelMaker/resources/images/JAPAN/eatYour.jpg" alt="">
                         </a>
-                        <span class="mTitle">너의 췌장을 먹고싶어(Let Me Eat Your Pancreas)</span>
+                        <span class="mTitle">너의 췌장을 먹고싶어<br>&nbsp;&nbsp;&nbsp;&nbsp;(Let Me Eat Your Pancreas)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
@@ -144,7 +144,7 @@
                         <a href="/travelMaker/F-movie1.jsp">
                             <img class="movie-img "src="/travelMaker/resources/images/JAPAN/todayTmrw.jpg" alt="">
                         </a>
-                        <span class="mTitle">나는 내일, 어제의 너와 만난다(My Tomorrow, Your Yesterday)</span>
+                        <span class="mTitle">나는 내일, 어제의 너와 만난다<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(My Tomorrow, Your Yesterday)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
@@ -163,7 +163,7 @@
                         <a href="/travelMaker/F-movie1.jsp">
                             <img class="movie-img "src="/travelMaker/resources/images/germany/charliesAngels.jpg" alt="">
                         </a>
-                        <span class="mTitle">미녀삼총사3(Charlie's Angels)</span>
+                        <span class="mTitle">다만악에서구하소서(Deliver Us From Evil)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
