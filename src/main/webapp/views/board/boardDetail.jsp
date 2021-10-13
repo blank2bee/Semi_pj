@@ -330,6 +330,8 @@
 						        el.removeChild (el.lastChild);
 						    }
 						}
+						 
+						 
 						</script>    
 						</td>
                         </tr>

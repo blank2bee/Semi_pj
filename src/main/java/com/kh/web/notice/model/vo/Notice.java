@@ -26,7 +26,7 @@ public class Notice implements Serializable {
 		this.noticefile = noticefile;
 	}
 
-	public Notice(int nno, int noticetype, String ntitle, String ncontent, String nwriter, int ncount,
+	public Notice(int nno, String ntitle, String ncontent, String nwriter, int ncount,
 			String noticefile, Date ndate, String status) {
 		super();
 		this.nno = nno;

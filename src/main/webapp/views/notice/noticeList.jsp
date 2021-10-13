@@ -13,13 +13,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>공지사항 목록</title>
 </head>
 <body>
 <%@ include file="../common/banner.jsp" %>
 	<%@ include file="/views/common/sidebar.jsp" %>  
 	<%@ include file="/views/common/footer.jsp" %> 
-	<!--  
+	
 	<div class="outer">
 		<br>
 		<h2 align="center">공지 게시판</h2>
@@ -28,26 +28,26 @@
 				<tr>
 					<th width="100px">글 번호</th>
 					<th width="300px">제 목</th>					
-					<th width="100px">작성자</th>					
+					<th width="100px">글쓴이</th>					
 					<th width="150px">작성일</th>					
 					<th width="100px">조회수</th>					
 					<th width="100px">첨부파일</th>
 				</tr>
-				< % for(Notice n : list) { %>
+				<% for(Notice n : list) { %>
 				<tr>
-					<input type="hidden" value="< %= n.getNno() %>">
-					<td>< %= n.getNno() %></td>
-					<td>< %= n.getNtitle() %></td>
-					<td>< %= n.getNwriter() %></td>
-					<td>< %= n.getNdate() %></td>
-					<td>< %= n.getNcount() %></td>
-					< % if (n.getNoticefile() != null) { %>
+					<input type="hidden" value="<%=n.getNno() %>">
+					<td><%= n.getNno() %></td>
+					<td><%= n.getNtitle() %></td>
+					<td><%= n.getNwriter() %></td>
+					<td><%= n.getNdate() %></td>
+					<td><%= n.getNcount() %></td>
+					<% if (n.getNoticefile() != null) { %>
 					<td> @ </td>
-					< % } else { %>
+					<% } else { %>
 					<td> X </td>
-					< % } %>
+					<% } %>
 				</tr>
-				< % } %>
+				<% } %>
 			</table>
 		</div>
 		
@@ -55,33 +55,33 @@
 		
 		<div class="pagingArea" align="center">
 		
-		<button onclick="location.href='< %= request.getContextPath() %>/selectList.no?currentPage=1'"><<</button>
-			< %  if(currentPage <= 1){  %>
-			<button disabled><</button>
-			< %  } else{ %>
-			<button onclick="location.href='< %= request.getContextPath() %>/selectList.no?currentPage=< %=currentPage - 1 %>'"><</button>
-			< %  } %>
+		<button onclick="location.href='< %= request.getContextPath() %>/selectList.no?currentPage=1'"></button>
+			<%  if(currentPage <= 1){  %>
+			<button disabled></button>
+			<%  } else{ %>
+			<button onclick="location.href='<%= request.getContextPath() %>/selectList.no?currentPage=<%=currentPage - 1 %>'"></button>
+			<%  } %>
 			
-			< % for(int p = startPage; p <= endPage; p++){
+			<% for(int p = startPage; p <= endPage; p++){
 					if(p == currentPage){	
 			%>
-				<button disabled>< %= p %></button>
-			< %      }else{ %>
-				<button onclick="location.href='< %= request.getContextPath() %>/selectList.no?currentPage=< %= p %>'">< %= p %></button>
-			< %      } %>
-			< % } %>
+				<button disabled><%= p %></button>
+			<%      }else{ %>
+				<button onclick="location.href='<%= request.getContextPath() %>/selectList.no?currentPage=<%= p %>'"><%= p %></button>
+			<%      } %>
+			<% } %>
 				
-			< %  if(currentPage >= maxPage){  %>
+			<%  if(currentPage >= maxPage){  %>
 			<button disabled>></button>
-			< %  }else{ %>
-			<button onclick="location.href='< %= request.getContextPath() %>/selectList.no?currentPage=< %=currentPage + 1 %>'">></button>
-			< %  } %>
-			<button onclick="location.href='< %= request.getContextPath() %>/selectList.no?currentPage=< %= maxPage %>'">>></button>
+			<%  }else{ %>
+			<button onclick="location.href='<%= request.getContextPath() %>/selectList.no?currentPage=<%=currentPage + 1 %>'"></button>
+			<%  } %>
+			<button onclick="location.href='<%= request.getContextPath() %>/selectList.no?currentPage=<%= maxPage %>'"></button>
 		
 		</div>
 		
 		<div class="btnArea" align="center">
-			< % if ( m != null ) { %>
+			<% if ( m != null ) { %>
 			<br><br>
 				
 				<input type= "button" id= "btn1" onclick="location.href='views/notice/noticeInsertForm.jsp'" value="작성하기">
@@ -95,14 +95,14 @@
 							$(this).parent().css({"background" : "black"});
 						}).click(function(){
 							var bno = $(this).parent().find('input').val();
-							location.href = "< %= request.getContextPath() %>/selectOne.bo?bno=" + bno;
+							location.href = "< %= request.getContextPath() %>/selectOne.no?nno=" + nno;
 						});
 					});
 				</script>
-			< % } %>			
+			<% } %>			
 		</div>
 		
 	</div>
-	-->
+	-
 </body>
 </html>
