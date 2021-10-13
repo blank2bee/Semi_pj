@@ -14,6 +14,7 @@
     }
       .btns {
     width: 500px;
+    margin-right:50px;
 }
 
 
@@ -189,6 +190,7 @@
 		width:80px;
 		height:25px;
 		text-align:center;
+		font-weight: bolder;
 	}
 
 	#idCheck:hover, #ckZip:hover, #updateBtn:hover, #deleteBtn:hover, #goMain:hover {
@@ -407,7 +409,10 @@
 	
 	
 	function deleteMember(){
+		var check = confirm("정말로 탈퇴 하시겠습니까?") 
+		if(check) {
 		location.href = "/travelMaker/delete.do?mid=<%= m.getUserId() %>";
+		}
 	}
 	
 	$('input:radio').each(function(){

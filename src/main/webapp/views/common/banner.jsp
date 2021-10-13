@@ -4,38 +4,121 @@
  <%
  	Member m = (Member)session.getAttribute("member");
  %>
-<div id="banner">
 
+ <style>
+			
+			h1{
+			  color: #ffffff;
+			}
+              
+            
+            .input-box{
+                position:relative;
+                margin:10px 0;
+                
+            }
+            .input-box > input{
+                background:transparent;
+                border:none;
+                border-bottom: solid 1px #ccc;
+                padding:20px 0px 5px 0px;
+                font-size:12pt;
+                width:275px;
+                color: white;
+            }
+            input::placeholder{
+                color:transparent;
+                font-size: 12pt;
+                
+            }
+            input:placeholder-shown + label{
+                color:#aff;
+                font-size:10pt;
+                top:15px;
+                font-weight: bolder;
+
+            }
+            input:focus + label, label{
+                color:#8aa1a1;
+                font-size:10pt;
+                pointer-events: none;
+                position: absolute;
+                left:0px;
+                top:0px;
+                transition: all 0.2s ease ;
+                -webkit-transition: all 0.2s ease;
+                -moz-transition: all 0.2s ease;
+                -o-transition: all 0.2s ease;
+            }
+
+            input:focus, input:not(:placeholder-shown){
+               ;
+                outline:none;
+            }
+            input[type=button]{
+                background-color: #8aa1a1;
+                color:white;
+                width: 275px;
+                font-weight: bolder;
+                height:35px;
+                font-size: 14pt;
+                margin-top:10px;
+            }
+            
+            #join {
+            font-size:9pt;
+                color:rgb(164, 164, 164);
+          	margin-top: 4px;
+          	margin-left: 155px;
+            }
+            #forgot{
+                
+                font-size:9pt;
+                color:rgb(164, 164, 164);
+            margin-top: 4px;
+            margin-left: 8px;
+                
+            }
+            
+            #la1 {
+            margin-left: 1590px;
+            margin-top:  130px;
+            color: white;
+            font-size:17px;
+            }
+            
+          
+</style>
+
+<div id="banner">
+		
         <div class="loginArea">
+        
 	<% if (m == null){  %>
+	<h1>Login</h1>
 	<form action="/travelMaker/login.do" method="post" id="loginForm">
-		<table style ="width:250px" >
-			<!-- tr>td*2 -->
-			<tr>
-				<td>
-					<label class="text1">ID : </label>
-				</td>
-				<td>
-					<input type="text" name="userId"/>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<label class="text1">PW : </label>
-				</td>
-				<td>
-					<input type="password" name="userPwd" onkeyup="enterKey();">
-				</td>
-			</tr>
-		</table>
+	    <div class="input-box">
+                <input id="userId" type="text" name="userId" placeholder="아이디">
+                <label for=""userId"">아이디</label>
+            </div>
+
+            <div class="input-box">
+                <input id="userPwd" type="password" name="userPwd" placeholder="비밀번호" onkeyup="enterKey();">
+                <label for="userPwd">비밀번호</label>
+            </div>
+            
+           
+            <div id="join" onclick="memberJoin()" style="float: left;">회원가입</div>
+             <div id="forgot" style="float: left;">계정찾기</div>
+            
+            <br><br>
+            
+            <input type="button" onclick='login()' value="로그인">
+
+        </form>
 	
-		<br />
-		<div class="btns">
-			<div id="memberJoinBtn" onclick="memberJoin()">회원가입</div>
-			<div id="loginBtn" onclick='login()'>로그인</div> 
-		</div>
-	</form>
-	<br><br>
+	<br><br><br><br>	
+	<br><br><br><br>
 	<script>
 		function enterKey(){
 			if(window.event.keyCode == 13) {
@@ -45,15 +128,18 @@
 	</script>
 	<% } else { %>
 		<div id="userInfo">	
-			<div class="btns" align=center>
-				<label><%= m.getUserName() %>님의 방문을 환영합니다. </label><br>
-				<div id="changeInfo" onclick="changeInfo()">정보수정</div>
+			<div id="btns" align=center>
+				<label id="la1"><%= m.getUserName() %>님 환영합니다! </label><br>
+				<div align="right">
+				<div id="changeInfo" onclick="changeInfo()">마이페이지</div>
 				<div id="logoutBtn" onclick='logout()'>로그아웃</div> 
+			</div>
 			</div>	
 		</div>
 	<% } %>
 </div>
 </div>
+<br><br><br><br><br>
 <hr>
 
  <script>

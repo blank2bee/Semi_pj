@@ -60,7 +60,7 @@ public class MemberLogin extends HttpServlet {
 		} else {
 			// 로그인 실패!
 			
-			request.setAttribute("error-msg", "로그인 실패!, 아이디나 비밀번호 확인 필요!");
+			request.setAttribute("error-msg", "로그인을 실패하였습니다. 아이디나 비밀번호를 확인하세요!");
 			
 			RequestDispatcher view = request.getRequestDispatcher("views/common/errorPage.jsp");
 			
