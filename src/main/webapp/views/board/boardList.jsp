@@ -35,7 +35,7 @@
 	
 	}
 	table {
-		
+		padding : 20px;
 	/* 	border:1px solid white; */
 		text-align:center;
 		/* color:black; */
