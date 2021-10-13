@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,7 +50,7 @@
 	<%@ include file="/views/common/sidebar.jsp" %>  
 	<%@ include file="/views/common/footer.jsp" %> 
 	
-<% if ( n != null ) { %>
+	<% if ( m != null ) { %>
 			<div class="outer">
 			<div align="center">
 				<div>
@@ -66,9 +67,9 @@
 				      	<tr>
 				      		<td>글쓴이</td>
 				      		<td colspan="3">
-				      			<%= n.getUserName() %>
+				      			<%= m.getUserName() %>
 				      			<input type="hidden" name="userId" 
-				      			       value="<%= n.getUserId() %>" />
+				      			       value="<%= m.getUserId() %>" />
 				      		</td>
 				      	</tr>
 				      	<tr>

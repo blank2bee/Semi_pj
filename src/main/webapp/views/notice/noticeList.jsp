@@ -35,7 +35,7 @@
 				</tr>
 				<% for(Notice n : list) { %>
 				<tr>
-					<input type="hidden" value="<%=n.getNno() %>">
+					<input type="hidden" value="<%= n.getNno() %>">
 					<td><%= n.getNno() %></td>
 					<td><%= n.getNtitle() %></td>
 					<td><%= n.getNwriter() %></td>
@@ -94,7 +94,7 @@
 						}).mouseout(function(){
 							$(this).parent().css({"background" : "black"});
 						}).click(function(){
-							var bno = $(this).parent().find('input').val();
+							var nno = $(this).parent().find('input').val();
 							location.href = "< %= request.getContextPath() %>/selectOne.no?nno=" + nno;
 						});
 					});
