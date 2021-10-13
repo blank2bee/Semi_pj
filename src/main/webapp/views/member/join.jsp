@@ -222,7 +222,7 @@
         <h3>Travel Maker 회원 가입</h3>
         <p>회원 정보를 입력해주세요.</p>
         <div class="form-group">
-          <input type="text" class="form-control" name="userId" required>
+          <input type="text" class="form-control" id = "userId" name="userId" required>
           <span>아이디</span>
           <span class="border"></span>
           <table align="right" style="cursor:pointer;">
