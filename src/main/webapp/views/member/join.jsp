@@ -63,7 +63,7 @@
 
     .form-container {
       width: 600px;
-      height: 1000px;
+      height: 980px;
       
 
       margin: auto;
@@ -98,7 +98,7 @@
       left: 0;
       top: 41px;
 
-      width: 100%;
+      width: 90%;
       height: 2px;
       
       display: block;
@@ -107,14 +107,19 @@
       transition: all 0.15s ease;
     }
     
+    
+    .btns{
+    margin-left : 60px;
+    }
+    
     #joinBtn, #goMain {
     width: 110px;
     height: 40px;
-	margin-top: 60px;
+	margin-top: 30px;
 	color: black;
 	
-	
 	}
+	
 
     .form-control {
       width: 100%;
@@ -203,6 +208,8 @@
         border: none;
         box-shadow: none;
       }
+      
+	
      
   </style>
 </head>
@@ -220,6 +227,11 @@
           <input type="text" class="form-control" name="userId" required>
           <span>아이디</span>
           <span class="border"></span>
+          <table align="right" style="cursor:pointer;">
+          <tr>
+          	<td><div id="idCheck"> 중복확인 </div></td>
+          </tr>
+          </table>
         </div>
         <div class="form-group">
           <input type="password" class="form-control" name="userPwd" required="required">
@@ -263,7 +275,7 @@
           		    우편번호&nbsp; 
           		    <input type="text" id="zipCode" name="zipCode">
           		    <br><br>
-          		    <input type= "button" id = "ckZip" value="검색" onclick="addrSearch();" ></div>
+          		    <input type= "button" id = "ckZip"  style="cursor:pointer;" value="검색" onclick="addrSearch();" ></div>
           		    <br><br>
           		    &ensp;&ensp;&ensp;&ensp;주소&nbsp;
           		    <input type="text" id="address1" name="address1">
@@ -272,8 +284,8 @@
           		    <input type="text" id="address2" name="address2">
           		   
             	<div class="btns" align="center">
-				<input type="button" id="goMain"  onclick="goMain();" value="메인으로">
-				<input type="button" id="joinBtn" onclick="insertMember();" value="가입하기">
+				<input type="button" id="goMain"  style="cursor:pointer;"  onclick="goMain();" value="메인으로"> &nbsp;&nbsp;&nbsp;
+				<input type="button" id="joinBtn"  style="cursor:pointer;" onclick="insertMember();" value="가입하기">
 			</div>
        </div>
       
@@ -341,7 +353,22 @@
 	});
 	
 	$('#idCheck').on('click', function(){
-		 // 구현 예정
+		 $.ajax({
+			 url : '/travelMaker/idcheck.do',
+			 type: 'post',
+			 data : { userId : $('#userId').val() },
+			 success : function( data ) {
+				 
+				 console.log(data);
+				 if( data == 1) {
+					 alert("이미 사용 중인 아이디입니다.");
+				 } else {
+					 alert("사용 가능한 아이디입니다");
+				 }
+			 }, error : function( code ) {
+				 console.log( code );
+			 }
+		 });
 	});
     
 	</script>
