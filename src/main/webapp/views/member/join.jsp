@@ -281,7 +281,7 @@
           		    상세주소&nbsp; 
           		    <input type="text" id="address2" name="address2">
           		   
-            	<div class="btns" align="center" style="margin-left : 60px">
+            	<div class="btns"  style="margin-left : 55px">
 				<input type="button" id="goMain"  style="cursor:pointer;"  onclick="goMain();" value="메인으로"> &nbsp;&nbsp;&nbsp;
 				<input type="button" id="joinBtn"  style="cursor:pointer;" onclick="insertMember();" value="가입하기">
 			</div>
