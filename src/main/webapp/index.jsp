@@ -32,13 +32,21 @@ img{
 
 .slick-arrow{
 	position: absolute;
+	border: none;
+	text-indent: -9999px;
 	top: 20%;
 	width: 60px;
 	height: 60px;
 	z-index: 100;
 }
 
+.slick-prev{
+	background: url(/travelMaker/resources/images/chevrons-left-solid-24.png) no-repeat 0 0;
+}
+
+
 .slick-next{
+	background: url(/travelMaker/resources/images/chevrons-right-solid-24.png) no-repeat 0 0;
 	left: 90%;
 }
 
