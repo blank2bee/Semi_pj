@@ -106,7 +106,8 @@
                         <a href="/travelMaker/F-movie1.jsp">
                             <img class="movie-img "src="/travelMaker/resources/images/CHINA/transformer.jpg" alt="">
                         </a>
-                        <span class="mTitle">트랜스포머: 사라진 시대(Transformer: Age of Extinction)</span>
+                        <span class="mTitle">트랜스포머: 사라진 시대<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Transformer: Age of Extinction)</span>
                     </div>
                    
                     <div class="item">
