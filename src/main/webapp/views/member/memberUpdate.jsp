@@ -12,6 +12,10 @@
 	 * {
       box-sizing: border-box;
     }
+      .btns {
+    width: 500px;
+}
+
 
     body {
       margin: 0;
@@ -225,6 +229,8 @@
         border: none;
         box-shadow: none;
       }
+      
+
     
     /*
 	section {
@@ -320,14 +326,18 @@
 					<td><input type="text" id="address2" name="address2"></td>
 					<td></td>
 				</tr>
-				
-			</table>
-			<br>
-			<div class="btns" align="center">
+				<tr>
+					<td colspan="3">
+					
+			<div class="btns" wieth="500px" align="center">
 				<div id="goMain" onclick="goMain();">메인으로</div> &nbsp;
 				<div id="updateBtn" onclick="updateMember();">수정하기</div> &nbsp;
 				<div id="deleteBtn" onclick="deleteMember();">탈퇴하기</div>
 			</div>
+					</td>
+				</tr>
+			</table>
+			<br>
 		</form>
 	    </div>
   </div>
