@@ -33,7 +33,7 @@
             <div class="featured-content" 
             style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515),
             url('/travelMaker/resources/images/pexels-pixabay-220201.jpg');">
-                <h1 class="country">EUROPE</h1>
+                <h1 class="country">ASIA(아시아)</h1>
                 <p class="desc">
                    유럽은 크게 네 지역으로 나뉘어. 스칸디나비아 반도를 포함한 북부 유럽, 일찍부터 산업이 발달한 알프스 산맥 위쪽의 서부 유럽, 
                    고대 그리스·로마 문화가 꽃피었던 알프스 남쪽의 남부 유럽, 그리고 과거 사회주의 국가가 많았던 동부 유럽으로 나뉘지.유럽은 민족과 문화가 다양하지만, 
@@ -42,71 +42,71 @@
             </div>
         </div>
         <div class="movie-list-container">
-            <h1 class="moive-list-title">UNITED KINGDOM</h1>
+            <h1 class="moive-list-title">KOREA(대한민국)</h1>
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                      <div class="item">
                         <a href="/travelMaker/views/movie/UK/U-어바웃타임.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/UK/어바웃타임.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/KOREA/beWithYou.jpg" alt="">
                         </a>
-                        <span class="mTitle">어바웃 타임(About Time)</span>
+                        <span class="mTitle">지금 만나러갑니다(Be With You)</span>
                     </div>
                     
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/UK/007.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/KOREA/haeundae.jpg" alt="">
                         </a>
-                        <span class="mTitle">007 스카이폴(007 sky fall)</span>
+                        <span class="mTitle">해운대(Haeundae)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/UK/aboutBoy.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/KOREA/LittleForest.jpg" alt="">
                         </a>
-                        <span class="mTitle">어바웃어보이(About A Boy)</span>
+                        <span class="mTitle">리틀포레스트(Little Forest)</span>
                     </div>
 
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/UK/bridget.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/KOREA/Wailing.jpg" alt="">
                         </a>
-                        <span class="mTitle"> 브리짓 존스의 일기(Bridget Jones Diary)</span>
+                        <span class="mTitle">곡성(The Wailing)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/UK/closer.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/KOREA/Colony.jpg" alt="">
                         </a>
-                        <span class="mTitle">클로저(Closer)</span>
+                        <span class="mTitle">박열(Anarchist From Colony)</span>
                     </div>
                 </div>
             </div>  
         </div>
         <div class="movie-list-container">
-            <h1 class="moive-list-title">FRANCE</h1>
+            <h1 class="moive-list-title">CHINA(중국)</h1>
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
                         <a href="/travelMaker/views/movie/France/F-미드나잇.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/midnight_in_paris.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/CHINA/her.jpg" alt="">
                         </a>
-                        <span class="mTitle">미드나잇인파리(Midnight In Paris)</span>
+                        <span class="mTitle">그녀(Her)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/views/movie/France/F-미드나잇.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/the_tourist.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/CHINA/mySoulMate.jpg" alt="">
                         </a>
-                        <span class="mTitle">투어리스트(The Tourist)</span>
+                        <span class="mTitle">안녕, 나의 소울메이트(SoulMate)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/before_sunset.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/CHINA/thekarateKid.jpg" alt="">
                         </a>
-                        <span class="mTitle">비포 선셋(Before sunset)</span>
+                        <span class="mTitle">베스트키드(The Karate Kid)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/Les miserables.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/CHINA/transformer.jpg" alt="">
                         </a>
-                        <span class="mTitle">레미제라블(Les Miserable)</span>
+                        <span class="mTitle">트랜스포머: 사라진 시대(Transformer: Age of Extinction)</span>
                     </div>
                    
                     <div class="item">
@@ -119,44 +119,44 @@
             </div>  
         </div>
         <div class="movie-list-container">
-            <h1 class="moive-list-title">ITALY</h1>
+            <h1 class="moive-list-title">JAPAN(일본)</h1>
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
                         <a href="#">
-                            <img class="movie-img "src="/travelMaker/resources/images/italy/angels&Demons.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/JAPAN/eatYour.jpg" alt="">
                         </a>
-                        <span class="mTitle">천사와 악마(Angels & Demons)</span>
+                        <span class="mTitle">너의 췌장을 먹고싶어(Let Me Eat Your Pancreas)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/italy/gladiator.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/JAPAN/samurai.jpg" alt="">
                         </a>
-                        <span class="mTitle">글래디에이터(Gladiator)</span>
+                        <span class="mTitle">라스트 사무라이(The Last Samurai)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/italy/letter to juliet.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/JAPAN/sword.jpg" alt="">
                         </a>
-                        <span class="mTitle">레터스투줄리엣(Letter To Juliet)</span>
+                        <span class="mTitle">바람의 검심(Rurouni Kenshin)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/italy/john wick.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/JAPAN/todayTmrw.jpg" alt="">
                         </a>
-                        <span class="mTitle">존윅 : 리로드(John Wick)</span>
+                        <span class="mTitle">나는 내일, 어제의 너와 만난다(My Tomorrow, Your Yesterday)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/italy/eatPrayLove.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/JAPAN/yourName.jpg" alt="">
                         </a>
-                        <span class="mTitle">먹고 기도하고 사랑하라(Eat,Pray,Love)</span>
+                        <span class="mTitle">너의 이름은(Your Name)</span>
                     </div>
                 </div>
             </div>  
         </div>
         <div class="movie-list-container">
-            <h1 class="moive-list-title">GERMANY</h1>
+            <h1 class="moive-list-title">THAILAND(태국)</h1>
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">

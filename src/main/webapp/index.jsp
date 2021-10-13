@@ -69,7 +69,7 @@ color: white;
 
 			<div class="continent" data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
   				<div class="1">
-  					<a href="">
+  					<a href="/travelMaker/views/movie/Asia.jsp">
   					<h1>Asia</h1>
   					<img src="resources/images/continent/151642-2196f3.png" alt="" />  					
   					</a>
@@ -81,7 +81,7 @@ color: white;
   				</a>
   				</div>
 				 <div class="1">
-				 	<a href="">
+				 	<a href="/travelMaker/views/movie/northAmericaM.jsp">
 				 	<h1>North America</h1>
   					<img src="resources/images/continent/307195-2196f3.png" alt="" />				 	
 				 	</a>
@@ -93,7 +93,7 @@ color: white;
   				 </a>
   				</div>
   				<div class="1">
-  				<a href="/travelMaker/views/movie/movie.jsp">
+  				<a href="/travelMaker/views/movie/EuropeM.jsp">
 					<h1>Europe</h1>  				
   					<img src="resources/images/continent/151641-2196f3.png" alt="" />
   				</a>
