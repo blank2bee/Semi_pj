@@ -42,38 +42,38 @@
             </div>
         </div>
         <div class="movie-list-container">
-            <h1 class="moive-list-title">KOREA(대한민국)</h1>
+            <h1 class="moive-list-title">Korea(대한민국)</h1>
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                      <div class="item">
                         <a href="/travelMaker/views/movie/Korea/K-지금만나러갑니다.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/KOREA/beWithYou.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/Korea/beWithYou.jpg" alt="">
                         </a>
                         <span class="mTitle">지금 만나러갑니다(Be With You)</span>
                     </div>
                     
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/KOREA/haeundae.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/Korea/haeundae.jpg" alt="">
                         </a>
                         <span class="mTitle">해운대(Haeundae)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/KOREA/LittleForest.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/Korea/LittleForest.jpg" alt="">
                         </a>
                         <span class="mTitle">리틀포레스트(Little Forest)</span>
                     </div>
 
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/KOREA/Wailing.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/Korea/Wailing.jpg" alt="">
                         </a>
                         <span class="mTitle">곡성(The Wailing)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/KOREA/Colony.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/Korea/Colony.jpg" alt="">
                         </a>
                         <span class="mTitle">박열(Anarchist From Colony)</span>
                     </div>

@@ -67,8 +67,7 @@
       
 
       margin: auto;
-      padding: 70px 100px 80px;
-
+      padding: 30px 100px 80px;
       border: 10px solid #95c6db;
       background: white;
       box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
