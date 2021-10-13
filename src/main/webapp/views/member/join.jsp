@@ -222,12 +222,12 @@
           <span class="border"></span>
         </div>
         <div class="form-group">
-          <input type="password" class="form-control" name="userPwd" required="required">
+          <input type="password" class="form-control" id = "userPwd" name="userPwd" required="required">
           <span>비밀번호</span>
           <span class="border"></span>
         </div>
               <div class="form-group">
-          <input type="password"  class="form-control" name="userPwd2" required="required">
+          <input type="password"  class="form-control" id = "userPwd2" name="userPwd2" required="required">
           <span>비밀번호 확인</span>
           <span class="border"></span>
         </div>
@@ -334,9 +334,13 @@
 	}
 	
 	$("#joinForm").submit(function(event){
-		if($("#userPwd").val() == "" || $("#userId").val() == "") alert("아이디나 비밀번호는 필수 값입니다.");
+		if($("#userPwd").val() == "" || $("#userId").val() == "") 
+			{
+			alert("아이디나 비밀번호는 필수 값입니다.");
+			}
 		else if($('#userPwd').val() != $('#userPwd2').val()) alert("비밀번호 확인 값과 다릅니다.");
-		else return;
+		else(alert("축하드립니다! 가입이 완료 되었습니다."))
+				return;
 		event.preventDefault();
 	});
 	
