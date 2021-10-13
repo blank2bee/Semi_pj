@@ -126,21 +126,22 @@
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
                         <a href="#">
-                            <img class="movie-img "src="/travelMaker/resources/images/italy/angels&Demons.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/MEXICO/Coco.jpg" alt="">
                         </a>
-                        <span class="mTitle">천사와 악마(Angels & Demons)</span>
+                        <span class="mTitle">코코(Coco)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/italy/gladiator.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/MEXICO/zoro.jpg" alt="">
                         </a>
-                        <span class="mTitle">글래디에이터(Gladiator)</span>
+                        <span class="mTitle">레전드 오브 조로(The Legend of Zoro)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/italy/letter to juliet.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/MEXICO/Once.jpg" alt="">
                         </a>
-                        <span class="mTitle">레터스투줄리엣(Letter To Juliet)</span>
+                        <span class="mTitle">원스 어폰 어타임 인 멕시코<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Once Upon A Time In Mexico)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
@@ -153,43 +154,6 @@
                             <img class="movie-img "src="/travelMaker/resources/images/italy/eatPrayLove.jpg" alt="">
                         </a>
                         <span class="mTitle">먹고 기도하고 사랑하라(Eat,Pray,Love)</span>
-                    </div>
-                </div>
-            </div>  
-        </div>
-        <div class="movie-list-container">
-            <h1 class="moive-list-title">GUATEMALA(과테말라)</h1>
-            <div class="movie-list-wrapper">
-                <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/charliesAngels.jpg" alt="">
-                        </a>
-                        <span class="mTitle">미녀삼총사3(Charlie's Angels)</span>
-                    </div>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/ImYourMan.jpg" alt="">
-                        </a>
-                        <span class="mTitle">아임유어맨(I'm Your Man)</span>
-                    </div>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/The Grand Budapest Hotel.jpg" alt="">
-                        </a>
-                        <span class="mTitle">그랜드부다페스호텔(The Grand Budapest Hotel)</span>
-                    </div>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/theBookThief.jpg" alt="">
-                        </a>
-                        <span class="mTitle">책도둑(The Book Theif)</span>
-                    </div>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/gunpowder.jpg" alt="">
-                        </a>
-                        <span class="mTitle">건파우더 밀크셰이크(Gunpowder Milkshake)</span>
                     </div>
                 </div>
             </div>  
