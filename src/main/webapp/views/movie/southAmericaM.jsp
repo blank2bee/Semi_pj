@@ -47,16 +47,16 @@
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                      <div class="item">
                         <a href="/travelMaker/views/movie/UK/U-어바웃타임.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/UK/어바웃타임.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/BRAZIL/fastFive.jpg" alt="">
                         </a>
-                        <span class="mTitle">어바웃 타임(About Time)</span>
+                        <span class="mTitle">분노의 질주: 언리미티드(Fast Five)</span>
                     </div>
                     
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/UK/007.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/BRAZIL/rio.jpg" alt="">
                         </a>
-                        <span class="mTitle">007 스카이폴(007 sky fall)</span>
+                        <span class="mTitle">리오(Rio)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
