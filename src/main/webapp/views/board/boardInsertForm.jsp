@@ -34,7 +34,7 @@
       margin: auto;
       padding: 5px;
 
-      border: 10px solid #80c6db;
+      border: 10px solid #39459b;
       background: white;
       box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     }
