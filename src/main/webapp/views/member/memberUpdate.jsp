@@ -246,7 +246,7 @@
 		<%@ include file="/views/common/banner.jsp" %>
 	<%@ include file="/views/common/sidebar.jsp" %>  
 	<%@ include file="/views/common/footer.jsp" %> 
-	
+<% if ( m != null ) { %>	
 	 <div class="wrapper">
     <div class="form-container">
 		<br>
@@ -331,7 +331,12 @@
 		</form>
 	    </div>
   </div>
-  
+  	<% } else { 
+		request.setAttribute("error-msg", "회원만 접근 가능합니다!");
+		
+		request.getRequestDispatcher("../common/errorPage.jsp")
+		       .forward(request, response);
+	 } %>
   
 	<script>
 	

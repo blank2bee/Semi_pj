@@ -13,7 +13,7 @@
 			<!-- tr>td*2 -->
 			<tr>
 				<td>
-					<label class="text">ID : </label>
+					<label class="text1">ID : </label>
 				</td>
 				<td>
 					<input type="text" name="userId"/>
@@ -21,7 +21,7 @@
 			</tr>
 			<tr>
 				<td>
-					<label class="text">PW : </label>
+					<label class="text1">PW : </label>
 				</td>
 				<td>
 					<input type="password" name="userPwd" onkeyup="enterKey();">
@@ -57,6 +57,7 @@
 </div>
 </div>
 <hr>
+<br><br>
  <script>
 	function login(){
 		$('#loginForm').submit();

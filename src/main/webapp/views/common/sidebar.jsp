@@ -26,7 +26,7 @@
 
                     <div class="nav__link collapse" onclick="goList()";>
                         <ion-icon name="folder-outline" class="nav__icon"></ion-icon>
-                        <span class="nav_name">트레일러 감상 </span>
+                        <span class="nav_name">트레일러</span>
                     </div>
 
                     <a onclick="goNotice()" class="nav__link">
@@ -44,7 +44,7 @@
                         <span class="nav_name">마이페이지</span>
                     </a>
                 </div>
-                <a onclick='logout()' class="nav__link">
+                <a onclick="logOut()" class="nav__link">
                     <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
                     <span class="nav_name">로그아웃</span>
                 </a>
@@ -66,6 +66,10 @@
 	}
     function goMan(){
 		location.href="/travelMaker/views/myinfo/mantoman.jsp";
+	}
+    
+    function logOut(){
+		location.href="/travelMaker/logout.do";
 	}
     
     </script>

@@ -4,77 +4,96 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Travel Maker</title>
-
+<title>Login Main</title>
+<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="/travelMaker/resources/css/common.css">
-<script src="resources/js/jquery-3.6.0.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+	$(function(){
+		$('.continent').slick();
+	})
+</script>
 
 <style>
 
-body{
-    margin: 0;
-    padding: 0;
+.continent{
+	position: relative;
+	padding: 20px;
 }
 
-a{
-    color: inherit;
-    text-decoration: none;
+img{
+	width: 70%;
+	height: 70%;
+	display: flex;
+	transfrom: translateX(0);
 }
 
-section{
-    width: 100%;
-    margin: 0 auto;
+.slick-arrow{
+	position: absolute;
+	top: 20%;
+	width: 60px;
+	height: 60px;
+	z-index: 100;
 }
 
-
-
-.right-imgbox{
-    width: 90%;
-   	height: 790px;
-    float: right;
-    position: relative;
-}
-.right-imgbox img{
-    width: 100%;
-    height: 100%;
-}
-.search-box{
-    position: absolute;
-    right: 30px;
-    top: 10px;
-    width: 200px;
+.slick-next{
+	left: 90%;
 }
 
-.search-box img{
-    width: 10%;
-    float: left;
+h1{
+color: white;
 }
 
-.search-box input{
-    width: 80%;
-    float: right;
-}
 
 </style>
-</head>
 
+
+</head>
 <body>
 	<%@ include file="/views/common/banner.jsp" %> 
 	<%@ include file="/views/common/sidebar.jsp" %>  
 	<%@ include file="/views/common/footer.jsp" %> 
 
- <section>
-        <div class="right-imgbox">
-        <a href="/travelMaker/views/movie/movie.jsp">        
-           <img src="resources/images/world-map-g21ccc280b_1280.png" alt="#">
-        </a>
-           <div class="search-box">
-               <img src="resources/images/magnifying-glass-gd08d35325_1280.png" alt="#">
-               <input type="text">
-           </div>
-        </div>
-    </section>
-
-
+			<div class="continent" data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
+  				<div class="1">
+  					<a href="">
+  					<h1>Asia</h1>
+  					<img src="resources/images/continent/151642-2196f3.png" alt="" />  					
+  					</a>
+  				</div>
+  				<div class="1">
+  				<a href="">
+					<h1>Australia</h1>  				
+  					<img src="resources/images/continent/306393-2196f3.png" alt="" />
+  				</a>
+  				</div>
+				 <div class="1">
+				 	<a href="">
+				 	<h1>North America</h1>
+  					<img src="resources/images/continent/307195-2196f3.png" alt="" />				 	
+				 	</a>
+  				</div>
+  				 <div class="1">
+  				 <a href="">
+					<h1>South America</h1>  				 
+  					<img src="resources/images/continent/311014-2196f3.png" alt="" />
+  				 </a>
+  				</div>
+  				<div class="1">
+  				<a href="/travelMaker/views/movie/movie.jsp">
+					<h1>Europe</h1>  				
+  					<img src="resources/images/continent/151641-2196f3.png" alt="" />
+  				</a>
+  				</div>
+  				<div class="1">
+  					<a href="">
+					<h1>Africa</h1>  					
+  					<img src="resources/images/continent/151640-2196f3.png" alt="" />
+  					</a>
+  				</div>
+  			</div>
+	
 </body>
 </html>
