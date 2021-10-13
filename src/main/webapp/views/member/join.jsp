@@ -108,9 +108,7 @@
     }
     
     
-    .btns{
-    margin-left : 60px;
-    }
+    
     
     #joinBtn, #goMain {
     width: 110px;
@@ -283,7 +281,7 @@
           		    상세주소&nbsp; 
           		    <input type="text" id="address2" name="address2">
           		   
-            	<div class="btns" align="center">
+            	<div class="btns" align="center" style="margin-left : 60px">
 				<input type="button" id="goMain"  style="cursor:pointer;"  onclick="goMain();" value="메인으로"> &nbsp;&nbsp;&nbsp;
 				<input type="button" id="joinBtn"  style="cursor:pointer;" onclick="insertMember();" value="가입하기">
 			</div>
