@@ -32,11 +32,16 @@
 		margin-top:50px;
 		
 		
+	
 	}
 	table {
 		padding : 20px;
+	/* 	border:1px solid white; */
 		text-align:center;
-
+		/* color:black; */
+		/* background : white;  */
+	
+   /*  background-size:950px 650px; */
 		
 	}
 	.frame {
@@ -94,6 +99,19 @@ div#frame a:hover.note {
 	border: 1px solid rgba(0,0,0,.25);
 }
 
+.sticky0 {
+	transform: rotate(-3.5deg);
+	-webkit-transform: rotate(-3.5deg);
+	-moz-transform: rotate(-3.5deg);
+	background-color: white;
+}
+
+.sticky1 {
+	transform: rotate(-3.5deg);
+	-webkit-transform: rotate(-3.5deg);
+	-moz-transform: rotate(-3.5deg);
+	background-color: #CBFAFA;
+}
 
 .sticky2 {
 	transform: rotate(1deg);
@@ -103,6 +121,27 @@ div#frame a:hover.note {
    background-color:#33FFCC;
 }
 
+.sticky3 {
+	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	background-color: #F8CDCD;
+}
+
+.sticky4 {
+	transform: rotate(-2deg);
+	-webkit-transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+	background-color: #F8CDCD;
+}
+
+.sticky5 {
+	transform: rotate(-2deg);
+	-webkit-transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+	transform: rotate(-2deg);
+	background-color: #ffffff;
+}
 
 .pin {
 	border-radius: 50%;
@@ -167,6 +206,17 @@ div#frame a:hover.note {
     -moz-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+/* h2{ 
+	background-image:url('../../travelMaker/resources/images/tape.png');
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-size:300px 180px;
+	
+	background-position:center;
+	width:300px;
+	height:180px;
+} */
 
 
     .button-82-pushable {
@@ -276,7 +326,16 @@ div#frame a:hover.note {
           height: 160px;
           }
         
+        
 
+/* .button-54 { font-family: "Open Sans", sans-serif; font-size: 16px; letter-spacing: 2px; text-decoration: none; 
+text-transform: uppercase; color: #33FFCC; cursor: pointer; border: 3px solid;
+ padding: 0.25em 0.5em; box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px; 
+ position: relative; user-select: none; -webkit-user-select: none; touch-action: manipulation; }
+  .button-54:active { box-shadow: 0px 0px 0px 0px; top: 5px; left: 5px; }
+   @media (min-width: 768px) { .button-54 { padding: 0.25em 0.75em; } } */
+   
+/* 	th { color : black;border-top: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5; padding: 5px 0; text-align: center; background: #33FFCC; } */
 </style>
 </head>
 
@@ -333,7 +392,51 @@ div#frame a:hover.note {
 		
 		
 		
-
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	<%-- 	
+			<table align="center" id="listArea">
+				<tr>
+					<th width="100px">글 번호</th>
+					<th width="300px">제 목</th>					
+					<th width="100px">작성자</th>					
+					<th width="150px">작성일</th>					
+					<th width="100px">조회수</th>					
+					<th width="100px">첨부파일</th>
+				</tr>
+				
+				
+				<% for(Board b : list) { %>
+				<tr>
+				
+					<input type="hidden" value="<%= b.getBno() %>">
+					<td><%= b.getBno() %></td>
+					<td><%= b.getBtitle() %></td>
+					<td><%= b.getBwriter() %></td>
+					<td><%= b.getBdate() %></td>
+					<td><%= b.getBcount() %></td>
+					<% if (b.getBoardfile() != null) { %>
+					<td> @ </td>
+					 
+					<% } else { %>
+					<td> X </td>
+					  
+					<% } %>
+					 
+			</tr>	
+				<% } %>
+			</table>
+		</div>
+		 --%>
+		<%-- 페이지 처리 코드 넣기 --%>
 		<br />
 		<br />
 		<br />

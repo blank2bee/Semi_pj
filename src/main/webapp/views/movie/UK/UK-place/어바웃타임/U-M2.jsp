@@ -5,8 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Travel Maker</title>
-<link rel="stylesheet" href="/travelMaker/resources/css/common.css">
-  
+    <link rel="stylesheet" href="/travelMaker/resources/css/common.css">
+   
   
     <style>
         h1 {
@@ -35,12 +35,12 @@
         #a {
             color: red;
         }
-
-     .place {
+        
     
+     .place {
+        
           width:150px;
           height: 150px;
-          margin-left: 30px;
           transition: all 0.2s linear;
           overflow:hidden;
           display: inline-block;
@@ -55,46 +55,39 @@
 
 
     </style>
- <body>
- 	<%@ include file="/views/common/banner.jsp" %> 
+    
+   
+<body>
+	<%@ include file="/views/common/banner.jsp" %> 
 	<%@ include file="/views/common/sidebar.jsp" %> 
-	<%@ include file="/views/common/footer.jsp" %>
-<h1>모네의 정원</h1>
+	<%@ include file="/views/common/footer.jsp" %> 
+	
+<h1>포틀로 유나이티드 교회</h1>
 
     <br>
     <p>
-    <img src="../resources/images/모네의 정원.jpg" alt="로댕미술관" align = "left"><br><br> 
-    &emsp;&emsp;&emsp;파리 근교 마을 중 가장 아름다운 곳을 꼽으라면 단연 '모네의 정원'이 있는 지베르니다.  <br> 
-    &emsp;&emsp;&emsp;림 그리는 시간 외에는 정원 가꾸기에 몰두했던 모네의 열정이 고스란히 남아 있는 정원은 어느 누구도 반하지 않을 수가 없다. <br> 
-    &emsp;&emsp;&emsp;모네의 집을 나오면 아기자기한 갤러리와 카페를 따라 자연스레 발길이 옮겨지는 클로드 모네의 길(Rue de Claude Monet)은 <br>   
-    &emsp;&emsp;&emsp;화사함으로 물들여진 꽃 길. 봄과 여름에는 튤립과 장미가, 가을에는 버건디 색감이 짙은 꽃들이  <br>  
-    &emsp;&emsp;&emsp;만발해 있는 마을은 둘러보는 내내 꽃 향기가 가득하다. <br><br>
-   
-    &emsp;&emsp;&emsp;*영업시간 : 매일 09:30~18:00 / 3월 말경부터 11월 1일까지만 오픈 <br>
-    &emsp;&emsp;&emsp;*주소 : 84 Rue Claude Monet, 27620 Giverny <br>
-    &emsp;&emsp;&emsp;*가는 법 : Vemon-Giverny 역에 내리면 마을로 들어가는 셔틀버스(5유로)나 미니 열차(8유로) 정거장 표시가 바로 눈에 띈다.<br> 
-    &emsp;&emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp;둘 중 어느 것을 타든 약 20분 정도 소요. <br>
-    &emsp;&emsp;&emsp;*입장료 : 9.5 EUR <br><br>
-    &emsp;&emsp;&emsp;파리에서 지베르니 가는 방법 <br>
-    &emsp;&emsp;&emsp;1. 생라자르(Gare de Saint Lazare) 역에서 출발, 베흐농 지베르니(Vernon-Giverny) 행 기차 탑승. 소요시간 : 약 55분, 편도 요금: €9~ <br>
-    &emsp;&emsp;&emsp;2. 지베르니 기차역에서 지베르니 마을 가는 방법
-                        Vernon-Giverny 역에 내리면, 마을로 들어가는 셔틀버스(€5/편)나 미니 열차(€8/왕복)<br>
-&emsp;&emsp;&emsp; 정거장 표시가 바로 눈에 띈다. 둘 중 어느 것을 타든 약 20분 정도 소요.
+    <img src="../../../../../resources/images/UK/place/어바웃타임/포틀로/포틀로유나이티드교회.png" alt="콘월도시" align = "left"><br><br> 
+    &emsp;&emsp;&emsp;포틀로 유나이티드 교회는 콘월도시 안에 우치하며 영화 <어바웃 타임>의 촬영지로 유명합니다. <br> 
+    &emsp;&emsp;&emsp;콘월의 거리를 거닐다 보면 영화 속 장면이 생생하게 그려지는데요. 특히 결혼식 장면의 배경이 되었던 <br> 
+    &emsp;&emsp;&emsp;‘포틀로 유나이티드 교회(Potloe United Church)’는 <어바웃 타임>을 <br>   
+    &emsp;&emsp;&emsp;감명 깊게 봤다면 반드시 들러야 할 명소로 자리잡았습니다. 외관은 소박하고 아담하지만 <br>  
+    &emsp;&emsp;&emsp;, 그 안에 수많은 이야기들을 품고 있을 것 같은 포틀로 유나이티드 교회. <br> 
+    &emsp;&emsp;&emsp;여러분도 이곳에서 낭만적인 이야기를 만들어 보세요. <br><br>
+   <br><br><br>
 
     </p>
 
+    <br><br><br><br><br><br><br><br><br>
     <div id ="imgtag">
-    <img src="../resources/images/m1.png" class = "place"> 
-    <img src="../resources/images/m2.png" class = "place"> 
-    <img src="../resources/images/m3.png" class = "place"> 
-    
+     &emsp;&emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp;&emsp; 
+    <img src="../../../../../resources/images/UK/place/어바웃타임/포틀로/l1.jpg" class = "place"> 
+    <img src="../../../../../resources/images/UK/place/어바웃타임/포틀로/l2.jpg" class = "place"> 
     </div>
+    
     <br>
-     <hr>
-
+    
     
 
- 
-    
+     
 </body>
 </html>

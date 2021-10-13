@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Login Main</title>
+<title>Travel Maker</title>
 <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="/travelMaker/resources/css/common.css">
 
@@ -32,13 +32,24 @@ img{
 
 .slick-arrow{
 	position: absolute;
+	border: none;
+	text-indent: -9999px;
 	top: 20%;
-	width: 60px;
-	height: 60px;
+	width: 55px;
+	height: 55px;
 	z-index: 100;
 }
 
+.slick-prev{
+	background: url(/travelMaker/resources/images/left.png) no-repeat 0 0;
+	background-size: 100% 100%;
+	
+}
+
+
 .slick-next{
+	background: url(/travelMaker/resources/images/right.png) no-repeat 0 0;
+	background-size: 100% 100%;	
 	left: 90%;
 }
 

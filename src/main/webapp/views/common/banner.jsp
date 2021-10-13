@@ -5,11 +5,11 @@
  	Member m = (Member)session.getAttribute("member");
  %>
 <div id="banner">
-</div>
+
         <div class="loginArea">
 	<% if (m == null){  %>
 	<form action="/travelMaker/login.do" method="post" id="loginForm">
-		<table>
+		<table style ="width:250px" >
 			<!-- tr>td*2 -->
 			<tr>
 				<td>
@@ -28,12 +28,14 @@
 				</td>
 			</tr>
 		</table>
+	
+		<br />
 		<div class="btns">
 			<div id="memberJoinBtn" onclick="memberJoin()">회원가입</div>
 			<div id="loginBtn" onclick='login()'>로그인</div> 
 		</div>
 	</form>
-	
+	<br><br>
 	<script>
 		function enterKey(){
 			if(window.event.keyCode == 13) {
@@ -51,8 +53,9 @@
 		</div>
 	<% } %>
 </div>
+</div>
 <hr>
-<br><br>
+
  <script>
 	function login(){
 		$('#loginForm').submit();
