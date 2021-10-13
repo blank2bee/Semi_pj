@@ -5,11 +5,11 @@
  	Member m = (Member)session.getAttribute("member");
  %>
 <div id="banner">
-</div>
+
         <div class="loginArea">
 	<% if (m == null){  %>
 	<form action="/travelMaker/login.do" method="post" id="loginForm">
-		<table>
+		<table style ="width:250px" >
 			<!-- tr>td*2 -->
 			<tr>
 				<td>
@@ -28,6 +28,10 @@
 				</td>
 			</tr>
 		</table>
+		<div class="profile">
+		<img src="resources/images/profile.png" alt="" />
+		</div>
+		<br />
 		<div class="btns">
 			<div id="memberJoinBtn" onclick="memberJoin()">회원가입</div>
 			<div id="loginBtn" onclick='login()'>로그인</div> 
@@ -50,6 +54,7 @@
 			</div>	
 		</div>
 	<% } %>
+</div>
 </div>
 <hr>
  <script>
