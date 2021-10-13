@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>movie</title>
 <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="/travelMaker/resources/css/common.css">
@@ -35,66 +35,68 @@
             url('/travelMaker/resources/images/pexels-pixabay-220201.jpg');">
                 <h1 class="country">AFRICA(아프리카)</h1>
                 <p class="desc">
-                   유럽은 크게 네 지역으로 나뉘어. 스칸디나비아 반도를 포함한 북부 유럽, 일찍부터 산업이 발달한 알프스 산맥 위쪽의 서부 유럽, 
-                   고대 그리스·로마 문화가 꽃피었던 알프스 남쪽의 남부 유럽, 그리고 과거 사회주의 국가가 많았던 동부 유럽으로 나뉘지.유럽은 민족과 문화가 다양하지만, 
-                   최근에는 여러 나라들이 유럽 연합(EU)을 중심으로 하나의 유럽으로 통합되고 있어.
+					아프리카는 아시아 다음으로 큰 대륙이야. 대륙 한가운데 적도가 지나고 있어서 무더운 지역이 많아.아프리카에는 
+					세계 최대의 사막인 사하라 사막이 있는데, 사하라 사막을 기준으로 북부 아프리카와 중남부 아프리카로 나뉘어.
+					북부 아프리카는 백인종이 대부분이고, 이슬람교를 주로 믿어. 반면 중남부 아프리카는 흑인종이 대부분이고, 민족과 언어, 
+					종교와 문화가 다양해.아프리카는 자원은 풍부하지만 산업 발달은 더딘 편이야.
                 </p>
             </div>
         </div>
         <div class="movie-list-container">
-            <h1 class="moive-list-title">UNITED KINGDOM(영국)</h1>
+            <h1 class="moive-list-title">MOROCOO(모로코)</h1>
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                      <div class="item">
                         <a href="/travelMaker/views/movie/UK/U-어바웃타임.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/UK/어바웃타임.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/MOROCCO/mogadishu.jpg" alt="">
                         </a>
-                        <span class="mTitle">어바웃 타임(About Time)</span>
+                        <span class="mTitle">모가디슈(Escape From Mogadishu)</span>
                     </div>
                     
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/UK/007.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/MOROCCO/greenZone.jpg" alt="">
                         </a>
-                        <span class="mTitle">007 스카이폴(007 sky fall)</span>
+                        <span class="mTitle">그린존(Green Zone)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/UK/aboutBoy.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/MOROCCO/mission.jpg" alt="">
                         </a>
-                        <span class="mTitle">어바웃어보이(About A Boy)</span>
+                        <span class="mTitle">미션 임파서블(Mission Impossible)</span>
                     </div>
 
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/UK/bridget.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/MOROCCO/alexander.jpg" alt="">
                         </a>
-                        <span class="mTitle"> 브리짓 존스의 일기(Bridget Jones Diary)</span>
+                        <span class="mTitle">알렉산더(Alexander)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/UK/closer.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/MOROCCO/babel.jpg" alt="">
                         </a>
-                        <span class="mTitle">클로저(Closer)</span>
+                        <span class="mTitle">바벨(Babel)</span>
                     </div>
                 </div>
             </div>  
         </div>
         <div class="movie-list-container">
-            <h1 class="moive-list-title">FRANCE(프랑스)</h1>
+            <h1 class="moive-list-title">TUNISIA(튀니스)</h1>
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
                         <a href="/travelMaker/views/movie/France/F-미드나잇.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/midnight_in_paris.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/TUNISIA/starwars.jpg" alt="">
                         </a>
-                        <span class="mTitle">미드나잇인파리(Midnight In Paris)</span>
+                        <span class="mTitle">스타워즈: 에피소드 1<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(STAR WARS: Episode 1)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/views/movie/France/F-미드나잇.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/the_tourist.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/TUNISIA/lifeOfBrian.jpg" alt="">
                         </a>
-                        <span class="mTitle">투어리스트(The Tourist)</span>
+                        <span class="mTitle">라이프 오브 브라이언(Life Of Brian)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
