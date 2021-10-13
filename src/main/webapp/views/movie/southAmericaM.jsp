@@ -60,9 +60,9 @@
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/UK/aboutBoy.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/BRAZIL/elite.jpg" alt="">
                         </a>
-                        <span class="mTitle">어바웃어보이(About A Boy)</span>
+                        <span class="mTitle">엘리트 스쿼드(The Elite Squad)</span>
                     </div>
 
                     <div class="item">
