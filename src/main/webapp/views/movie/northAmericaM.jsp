@@ -43,7 +43,7 @@
             </div>
         </div>
         <div class="movie-list-container">
-            <h1 class="moive-list-title">BRAZIL(브라질)</h1>
+            <h1 class="moive-list-title">UNITED STATES(미국)</h1>
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                      <div class="item">
@@ -82,45 +82,46 @@
             </div>  
         </div>
         <div class="movie-list-container">
-            <h1 class="moive-list-title">Argentina(아르헨티나)</h1>
+            <h1 class="moive-list-title">CANADA(캐나다)</h1>
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
                         <a href="/travelMaker/views/movie/France/F-미드나잇.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/midnight_in_paris.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/CANADA/thePacifier.jpg" alt="">
                         </a>
-                        <span class="mTitle">미드나잇인파리(Midnight In Paris)</span>
+                        <span class="mTitle">패시파이어(The Pacifier)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/views/movie/France/F-미드나잇.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/the_tourist.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/CANADA/shazam.jpg" alt="">
                         </a>
-                        <span class="mTitle">투어리스트(The Tourist)</span>
+                        <span class="mTitle">샤잠!(Shazam!)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/before_sunset.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/CANADA/fiftyShade.jpg" alt="">
                         </a>
-                        <span class="mTitle">비포 선셋(Before sunset)</span>
+                        <span class="mTitle">그레이의 50가지 그림자<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Fifty Shades of Grey)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/Les miserables.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/CANADA/Revenant.jpg" alt="">
                         </a>
-                        <span class="mTitle">레미제라블(Les Miserable)</span>
+                        <span class="mTitle">레버넌트(The Revenant)</span>
                     </div>
                    
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/Marie Antoinette.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/CANADA/juno.jpg" alt="">
                         </a>
-                        <span class="mTitle">마리앙투아네트(Marie Antoinette)</span>
+                        <span class="mTitle">주노(Juno)</span>
                     </div>
                 </div>
             </div>  
         </div>
         <div class="movie-list-container">
-            <h1 class="moive-list-title">CHILE(칠레)</h1>
+            <h1 class="moive-list-title">MEXICO(멕시코)</h1>
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
@@ -157,7 +158,7 @@
             </div>  
         </div>
         <div class="movie-list-container">
-            <h1 class="moive-list-title">COLOMBIA(콜롬비아)</h1>
+            <h1 class="moive-list-title">GUATEMALA(과테말라)</h1>
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">

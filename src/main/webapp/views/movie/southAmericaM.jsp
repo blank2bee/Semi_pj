@@ -42,7 +42,7 @@
             </div>
         </div>
         <div class="movie-list-container">
-            <h1 class="moive-list-title">UNITED KINGDOM(영국)</h1>
+            <h1 class="moive-list-title">BRAZIL(브라질)</h1>
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                      <div class="item">
@@ -81,7 +81,7 @@
             </div>  
         </div>
         <div class="movie-list-container">
-            <h1 class="moive-list-title">FRANCE(프랑스)</h1>
+            <h1 class="moive-list-title">Argentina(아르헨티나)</h1>
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
@@ -119,7 +119,7 @@
             </div>  
         </div>
         <div class="movie-list-container">
-            <h1 class="moive-list-title">ITALY(이탈리아)</h1>
+            <h1 class="moive-list-title">CHILE(칠레)</h1>
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
@@ -156,7 +156,7 @@
             </div>  
         </div>
         <div class="movie-list-container">
-            <h1 class="moive-list-title">GERMANY(독일)</h1>
+            <h1 class="moive-list-title">COLOMBIA(콜롬비아)</h1>
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">

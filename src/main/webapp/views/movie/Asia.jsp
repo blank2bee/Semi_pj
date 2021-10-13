@@ -112,9 +112,9 @@
                    
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/Marie Antoinette.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/CHINA/kungfuHustle.jpg" alt="">
                         </a>
-                        <span class="mTitle">마리앙투아네트(Marie Antoinette)</span>
+                        <span class="mTitle">콩푸 허슬(KungFu Hustle)</span>
                     </div>
                 </div>
             </div>  
