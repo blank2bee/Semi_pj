@@ -13,7 +13,7 @@
 			<!-- tr>td*2 -->
 			<tr>
 				<td>
-					<label class="text">ID : </label>
+					<label class="text1">ID : </label>
 				</td>
 				<td>
 					<input type="text" name="userId"/>
@@ -21,7 +21,7 @@
 			</tr>
 			<tr>
 				<td>
-					<label class="text">PW : </label>
+					<label class="text1">PW : </label>
 				</td>
 				<td>
 					<input type="password" name="userPwd" onkeyup="enterKey();">
@@ -44,16 +44,14 @@
 	<% } else { %>
 		<div id="userInfo">	
 			<div class="btns" align=center>
-				<label><%= m.getUserName() %>님 환영합니다. </label><br>
+				<label><%= m.getUserName() %>님의 방문을 환영합니다. </label><br>
 				<div id="changeInfo" onclick="changeInfo()">정보수정</div>
 				<div id="logoutBtn" onclick='logout()'>로그아웃</div> 
 			</div>	
 		</div>
 	<% } %>
 </div>
-
-<br><br>
-
+<hr>
  <script>
 	function login(){
 		$('#loginForm').submit();
