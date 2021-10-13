@@ -46,7 +46,7 @@
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                      <div class="item">
-                        <a href="/travelMaker/views/movie/UK/U-어바웃타임.jsp">
+                        <a href="/travelMaker/views/movie/Korea/K-지금만나러갑니다.jsp">
                             <img class="movie-img "src="/travelMaker/resources/images/KOREA/beWithYou.jpg" alt="">
                         </a>
                         <span class="mTitle">지금 만나러갑니다(Be With You)</span>

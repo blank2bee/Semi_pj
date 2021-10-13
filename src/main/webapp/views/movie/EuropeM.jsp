@@ -123,7 +123,7 @@
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
-                        <a href="#">
+                        <a href="/travelMaker/views/movie/Italy/I-천사와 악마.jsp">
                             <img class="movie-img "src="/travelMaker/resources/images/italy/angels&Demons.jpg" alt="">
                         </a>
                         <span class="mTitle">천사와 악마(Angels & Demons)</span>
