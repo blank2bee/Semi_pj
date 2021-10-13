@@ -80,7 +80,7 @@ public class NoticeService {
 		return n;
 	}
 
-	public int updateBoard(Notice n) {
+	public int updateNotice(Notice n) {
 		con = getConnection();
 		int result = dao.updateNotice(con, n);
 		

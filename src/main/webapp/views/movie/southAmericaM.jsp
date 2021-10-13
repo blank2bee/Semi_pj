@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>movie</title>
 <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="/travelMaker/resources/css/common.css">
@@ -35,9 +35,10 @@
             url('/travelMaker/resources/images/pexels-pixabay-220201.jpg');">
                 <h1 class="country">SOUTH AMERICA(남아메리카)</h1>
                 <p class="desc">
-                   유럽은 크게 네 지역으로 나뉘어. 스칸디나비아 반도를 포함한 북부 유럽, 일찍부터 산업이 발달한 알프스 산맥 위쪽의 서부 유럽, 
-                   고대 그리스·로마 문화가 꽃피었던 알프스 남쪽의 남부 유럽, 그리고 과거 사회주의 국가가 많았던 동부 유럽으로 나뉘지.유럽은 민족과 문화가 다양하지만, 
-                   최근에는 여러 나라들이 유럽 연합(EU)을 중심으로 하나의 유럽으로 통합되고 있어.
+					중앙아메리카에 의해 북아메리카와 연결되며, 서쪽의 안데스 산계와 중앙 및 동부 지역의 평원, 고원이 주된 특색을 이룬다.
+					대륙 전반에 걸쳐 길이 약 8500㎞의 안데스 산맥이 솟아있어 서쪽에서는 고산기후가 나타나며, 동쪽은 온대와 열대지역에 해당하여 
+					연중 따뜻한 기후를 보인다. 반면, 칠레와 아르헨티나의 최남단은 남극권에 해당한다. 대부분의 지역이 스페인과 포르투갈의 영향을 받아 
+					대륙전체에서 스페인어와 포르투갈어 두 가지 언어가 통용되고 있다.
                 </p>
             </div>
         </div>
