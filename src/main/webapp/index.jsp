@@ -75,7 +75,7 @@ color: white;
   					</a>
   				</div>
   				<div class="1">
-  				<a href="">
+  				<a href="/travelMaker/views/movie/Australia.jsp">
 					<h1>Australia</h1>  				
   					<img src="resources/images/continent/306393-2196f3.png" alt="" />
   				</a>
@@ -87,7 +87,7 @@ color: white;
 				 	</a>
   				</div>
   				 <div class="1">
-  				 <a href="">
+  				 <a href="/travelMaker/views/movie/southAmericaM.jsp">
 					<h1>South America</h1>  				 
   					<img src="resources/images/continent/311014-2196f3.png" alt="" />
   				 </a>
@@ -99,7 +99,7 @@ color: white;
   				</a>
   				</div>
   				<div class="1">
-  					<a href="">
+  					<a href="/travelMaker/views/movie/Africa.jsp">
 					<h1>Africa</h1>  					
   					<img src="resources/images/continent/151640-2196f3.png" alt="" />
   					</a>

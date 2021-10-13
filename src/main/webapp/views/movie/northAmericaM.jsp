@@ -33,7 +33,7 @@
             <div class="featured-content" 
             style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515),
             url('/travelMaker/resources/images/pexels-pixabay-220201.jpg');">
-                <h1 class="country">NORTH AMERICA(북미)</h1>
+                <h1 class="country">NORTH AMERICA(북아메리카)</h1>
                 <p class="desc">
 					정치, 경제, 사회 등의 측면을 기준으로 할 때 북미는 미국과 캐나다, 즉 앵글로아메리카를 가리킨다. 2개국을 포함한 GNP는 
 					세계의 약 28%(1996)를 차지한다. 또한 모두 민주주의의 역사가 오래된 선진공업국으로 선진국정상회의의 참가국으로서 정치ㆍ경제의 
@@ -87,34 +87,35 @@
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
                         <a href="/travelMaker/views/movie/France/F-미드나잇.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/midnight_in_paris.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/CANADA/thePacifier.jpg" alt="">
                         </a>
-                        <span class="mTitle">미드나잇인파리(Midnight In Paris)</span>
+                        <span class="mTitle">패시파이어(The Pacifier)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/views/movie/France/F-미드나잇.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/the_tourist.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/CANADA/shazam.jpg" alt="">
                         </a>
-                        <span class="mTitle">투어리스트(The Tourist)</span>
+                        <span class="mTitle">샤잠!(Shazam!)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/before_sunset.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/CANADA/fiftyShade.jpg" alt="">
                         </a>
-                        <span class="mTitle">비포 선셋(Before sunset)</span>
+                        <span class="mTitle">그레이의 50가지 그림자<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Fifty Shades of Grey)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/Les miserables.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/CANADA/Revenant.jpg" alt="">
                         </a>
-                        <span class="mTitle">레미제라블(Les Miserable)</span>
+                        <span class="mTitle">레버넌트(The Revenant)</span>
                     </div>
                    
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/Marie Antoinette.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/CANADA/juno.jpg" alt="">
                         </a>
-                        <span class="mTitle">마리앙투아네트(Marie Antoinette)</span>
+                        <span class="mTitle">주노(Juno)</span>
                     </div>
                 </div>
             </div>  
@@ -125,21 +126,22 @@
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
                         <a href="#">
-                            <img class="movie-img "src="/travelMaker/resources/images/italy/angels&Demons.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/MEXICO/Coco.jpg" alt="">
                         </a>
-                        <span class="mTitle">천사와 악마(Angels & Demons)</span>
+                        <span class="mTitle">코코(Coco)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/italy/gladiator.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/MEXICO/zoro.jpg" alt="">
                         </a>
-                        <span class="mTitle">글래디에이터(Gladiator)</span>
+                        <span class="mTitle">레전드 오브 조로(The Legend of Zoro)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/italy/letter to juliet.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/MEXICO/Once.jpg" alt="">
                         </a>
-                        <span class="mTitle">레터스투줄리엣(Letter To Juliet)</span>
+                        <span class="mTitle">원스 어폰 어타임 인 멕시코<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Once Upon A Time In Mexico)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
@@ -152,43 +154,6 @@
                             <img class="movie-img "src="/travelMaker/resources/images/italy/eatPrayLove.jpg" alt="">
                         </a>
                         <span class="mTitle">먹고 기도하고 사랑하라(Eat,Pray,Love)</span>
-                    </div>
-                </div>
-            </div>  
-        </div>
-        <div class="movie-list-container">
-            <h1 class="moive-list-title">GUATEMALA(과테말라)</h1>
-            <div class="movie-list-wrapper">
-                <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/charliesAngels.jpg" alt="">
-                        </a>
-                        <span class="mTitle">미녀삼총사3(Charlie's Angels)</span>
-                    </div>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/ImYourMan.jpg" alt="">
-                        </a>
-                        <span class="mTitle">아임유어맨(I'm Your Man)</span>
-                    </div>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/The Grand Budapest Hotel.jpg" alt="">
-                        </a>
-                        <span class="mTitle">그랜드부다페스호텔(The Grand Budapest Hotel)</span>
-                    </div>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/theBookThief.jpg" alt="">
-                        </a>
-                        <span class="mTitle">책도둑(The Book Theif)</span>
-                    </div>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/gunpowder.jpg" alt="">
-                        </a>
-                        <span class="mTitle">건파우더 밀크셰이크(Gunpowder Milkshake)</span>
                     </div>
                 </div>
             </div>  
