@@ -2,7 +2,7 @@
 	
     width: 1000px;
     height: 175px;
-    margin-left: 200px;
+    margin-left: 70px;
     text-align: center;
     object-fit: cover;
     
@@ -16,16 +16,18 @@
      background-color: rgba(0,0,0,0.904);
 
      }
+     
+     
+.btns{
+	width : 250px;
+}
 
-
+.loginArea{
+	float : left;
+}
    
 
 
-.right-log{
-    float: right ;
-    width: 350px;
-    height: 100%;
-}
 tbody {
     display: table-row-group;
     vertical-align: middle;
@@ -246,7 +248,8 @@ a {
 
 .loginArea {
 	
-	margin-left: 1300px;
+	margin-left: 1200px;
+	margin-top : 39px;
 	
 }
 
