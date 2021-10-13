@@ -162,33 +162,33 @@
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/charliesAngels.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/Thailand/saveMeFromDevil.jpg" alt="">
                         </a>
                         <span class="mTitle">다만악에서구하소서(Deliver Us From Evil)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/ImYourMan.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/Thailand/friendZone.jpg" alt="">
                         </a>
-                        <span class="mTitle">아임유어맨(I'm Your Man)</span>
+                        <span class="mTitle">프렌드 존(Friend Zone)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/The Grand Budapest Hotel.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/Thailand/theMedium.jpg" alt="">
                         </a>
-                        <span class="mTitle">그랜드부다페스호텔(The Grand Budapest Hotel)</span>
+                        <span class="mTitle">랑종(The Medium)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/theBookThief.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/Thailand/hangOver2.jpg" alt="">
                         </a>
                         <span class="mTitle">책도둑(The Book Theif)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/gunpowder.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/Thailand/TeachDiary.jpg" alt="">
                         </a>
-                        <span class="mTitle">건파우더 밀크셰이크(Gunpowder Milkshake)</span>
+                        <span class="mTitle">선생님의 일기(The Teacher's Diary)</span>
                     </div>
                 </div>
             </div>  
