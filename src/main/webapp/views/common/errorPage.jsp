@@ -15,6 +15,7 @@
 		section {
 			width : 600px;
 			padding : 20px;
+    	    border: 10px solid #d14747;
 			background : white;
 			margin-left : auto;
 			margin-right: auto;
