@@ -52,6 +52,7 @@
 	<% } %>
 </div>
 <hr>
+<br><br>
  <script>
 	function login(){
 		$('#loginForm').submit();
