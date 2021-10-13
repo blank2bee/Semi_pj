@@ -28,9 +28,7 @@
 				</td>
 			</tr>
 		</table>
-		<div class="profile">
-		<img src="resources/images/profile.png" alt="" />
-		</div>
+	
 		<br />
 		<div class="btns">
 			<div id="memberJoinBtn" onclick="memberJoin()">회원가입</div>
