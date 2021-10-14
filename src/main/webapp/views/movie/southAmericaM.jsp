@@ -97,34 +97,35 @@ color : white;
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                     <div class="item">
                         <a href="/travelMaker/views/movie/France/F-미드나잇.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/midnight_in_paris.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/Argentina/focus.jpg" alt="">
                         </a>
-                        <span class="mTitle">미드나잇인파리(Midnight In Paris)</span>
+                        <span class="mTitle">포커스(Focus)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/views/movie/France/F-미드나잇.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/the_tourist.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/Argentina/children.jpg" alt="">
                         </a>
-                        <span class="mTitle">투어리스트(The Tourist)</span>
+                        <span class="mTitle">칠드런오브맨(Children Of Men)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/before_sunset.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/Argentina/secret.jpg" alt="">
                         </a>
-                        <span class="mTitle">비포 선셋(Before sunset)</span>
+                        <span class="mTitle">엘시크레토: 비밀의 눈동자<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(The Secret In Their Eyes)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/Les miserables.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/Argentina/years.jpg" alt="">
                         </a>
-                        <span class="mTitle">레미제라블(Les Miserable)</span>
+                        <span class="mTitle">티벳에서의 7년(7 Years in Tibet)</span>
                     </div>
                    
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/Marie Antoinette.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/Argentina/tales.jpg" alt="">
                         </a>
-                        <span class="mTitle">마리앙투아네트(Marie Antoinette)</span>
+                        <span class="mTitle">와일드테일즈(Wild Tales)</span>
                     </div>
                 </div>
             </div>  
@@ -137,7 +138,7 @@ color : white;
                         <a href="#">
                             <img class="movie-img "src="/travelMaker/resources/images/italy/angels&Demons.jpg" alt="">
                         </a>
-                        <span class="mTitle">천사와 악마(Angels & Demons)</span>
+                        <span class="mTitle">콜로니아(Colonia)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
@@ -153,13 +154,13 @@ color : white;
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/italy/john wick.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/x-circle-regular-24.png" alt="">
                         </a>
                         <span class="mTitle">존윅 : 리로드(John Wick)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/italy/eatPrayLove.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/x-circle-regular-24.png" alt="">
                         </a>
                         <span class="mTitle">먹고 기도하고 사랑하라(Eat,Pray,Love)</span>
                     </div>
@@ -190,13 +191,13 @@ color : white;
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/theBookThief.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/x-circle-regular-24.png" alt="">
                         </a>
                         <span class="mTitle">책도둑(The Book Theif)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/gunpowder.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/x-circle-regular-24.png" alt="">
                         </a>
                         <span class="mTitle">건파우더 밀크셰이크(Gunpowder Milkshake)</span>
                     </div>
