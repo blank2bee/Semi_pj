@@ -102,12 +102,12 @@
 	<h1>Login</h1>
 	<form action="/travelMaker/login.do" method="post" id="loginForm">
 	    <div class="input-box">
-                <input id="userId" type="text" name="userId" placeholder="아이디">
-                <label for=""userId"">아이디</label>
+                <input type="text" name="userId" placeholder="아이디">
+                <label for="userId">아이디</label>
             </div>
 
             <div class="input-box">
-                <input id="userPwd" type="password" name="userPwd" placeholder="비밀번호" onkeyup="enterKey();">
+                <input type="password" name="userPwd" placeholder="비밀번호" onkeyup="enterKey();">
                 <label for="userPwd">비밀번호</label>
             </div>
             

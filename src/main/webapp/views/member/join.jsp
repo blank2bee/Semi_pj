@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>회원 가입 양식</title>
+<title>회원 가입</title>
 <script src="/travelMaker/resources/js/jquery-3.6.0.min.js"></script>
 <script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
 <link rel="stylesheet" href="/travelMaker/resources/css/common.css">
@@ -223,7 +223,7 @@
         <p>회원 정보를 입력해주세요.</p>
         <div class="form-group">
           <input type="text" class="form-control" id = "userId" name="userId" required>
-          <span>아이디</span>
+          <span>*아이디</span>
           <span class="border"></span>
           <table align="right" style="cursor:pointer;">
           <tr>
@@ -233,17 +233,17 @@
         </div>
         <div class="form-group">
           <input type="password" class="form-control" id = "userPwd" name="userPwd" required="required">
-          <span>비밀번호</span>
+          <span>*비밀번호</span>
           <span class="border"></span>
         </div>
               <div class="form-group">
           <input type="password"  class="form-control" id = "userPwd2" name="userPwd2" required="required">
-          <span>비밀번호 확인</span>
+          <span>*비밀번호 확인</span>
           <span class="border"></span>
         </div>
               <div class="form-group">
           <input type="text" class="form-control" name="userName" required="required">
-          <span>이름</span>
+          <span>*이름</span>
           <span class="border"></span>
         </div>
        
@@ -282,7 +282,7 @@
           		    <input type="text" id="address2" name="address2">
           		   
             	<div class="btns"  style="margin-left : 55px">
-				<input type="button" id="goMain"  style="cursor:pointer;"  onclick="goMain();" value="메인으로"> &nbsp;&nbsp;&nbsp;
+				<input type="button" id="goMain"  style="cursor:pointer;"  onclick="gomain();" value="메인으로"> &nbsp;&nbsp;&nbsp;
 				<input type="button" id="joinBtn"  style="cursor:pointer;" onclick="insertMember();" value="가입하기">
 			</div>
        </div>
@@ -335,7 +335,7 @@
         }).open();
     };
 	
-    function goMain(){
+    function gomain(){
 		location.href='/travelMaker/index.jsp';
 	};
 	
@@ -346,12 +346,16 @@
 	$("#joinForm").submit(function(event){
 		if($("#userPwd").val() == "" || $("#userId").val() == "") 
 			{
-			alert("아이디나 비밀번호는 필수 값입니다.");
+			alert("아이디나 비밀번호를 필수로 입력해주세요!");
+			event.preventDefault();
 			}
-		else if($('#userPwd').val() != $('#userPwd2').val()) alert("비밀번호 확인 값과 다릅니다.");
+		else if($('#userPwd').val() != $('#userPwd2').val()) {
+			alert("비밀번호와 비밀번호 확인 값이 다릅니다.");
+			event.preventDefault();
+		}
 		else(alert("축하드립니다! 가입이 완료 되었습니다."))
-				return;
-		event.preventDefault();
+				return;	
+		
 	});
 	
 	$('#idCheck').on('click', function(){
