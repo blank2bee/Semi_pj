@@ -82,6 +82,7 @@
 						</td>
 					</tr>
 				</table>
+				<!--  -->
 				<br>
 				<div align="center">
 					<button onclick="complete();">수정완료</button>
@@ -97,6 +98,7 @@
 					}
 				
 				</script>
+				
 			</form>
 	</div>
 	</div>

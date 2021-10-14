@@ -17,7 +17,7 @@ import com.oreilly.servlet.MultipartRequest;
 import com.oreilly.servlet.multipart.DefaultFileRenamePolicy;
 
 /**
- * Servlet implementation class BoardDelete
+ * Servlet implementation class NoticeDelete
  */
 @WebServlet("/delete.no")
 public class NoticeDelete extends HttpServlet {

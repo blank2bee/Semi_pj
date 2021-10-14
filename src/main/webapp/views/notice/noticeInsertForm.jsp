@@ -36,7 +36,7 @@
       margin: auto;
       padding: 5px;
 
-      border: 10px solid #39459b;
+      border: 10px solid #ff8149;
       background: white;
       box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     }

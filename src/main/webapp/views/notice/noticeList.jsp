@@ -59,7 +59,7 @@
 		<%-- 페이지 처리 코드 넣기 --%>
 		
 		<div class="pagingArea" align="center">
-		
+		<br />
 		<button onclick="location.href='< %= request.getContextPath() %>/selectList.no?currentPage=1'"></button>
 			<%  if(currentPage <= 1){  %>
 			<button disabled></button>
@@ -89,7 +89,10 @@
 			<% if ( m != null ) { %>
 			<br><br>
 				
+				<!--
+				  
 				<input type= "button" id= "btn1" onclick="location.href='views/notice/noticeInsertForm.jsp'" value="작성하기">
+				-->
 				
 				
 				<script>

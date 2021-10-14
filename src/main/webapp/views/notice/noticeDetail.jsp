@@ -7,12 +7,30 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>공지사항 상세보기</title>
+<title>공지사항 상세보기</title>#ff8149
 <link rel="stylesheet" href="/travelMaker/resources/css/common.css">
 <link rel="stylesheet" href="/travelMaker/resources/css/style.css">
 <script src="/travelMaker/resources/js/jquery-3.6.0.min.js"></script>
 <style>
 
+	.outer{
+	width:900px;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	}
+	table {
+		padding : 20px;
+		text-align:center;
+	}
+
+	.tableArea {
+		width:100%;
+		height:350px;
+		margin-left:auto;
+		margin-right:auto;
+	}
 .notice-header {width: 700px; margin-bottom:10px; background:#fff; padding:10px 20px; border:10px solid #ff8149 }
 .notice-header:after {display:block; clear:both; content:''}
 .notice-header .title-wrap {padding:20px 20px 10px 20px}
@@ -33,7 +51,8 @@
 	<%@ include file="/views/common/sidebar.jsp" %>  
 
         <!-- notice header -->
-        <div class="notice-header" align="center" >
+        <table>
+        <div class="notice-header" >
             <div class="title-wrap">
                 <p class="category-info"><a href="/notice">공지사항</a></p>
                 <h2 class="notice-title"> <%= n.getNtitle() %></h2>
@@ -49,21 +68,23 @@
 							</a></i></li>
                 </ul>
             </div>
-            <div class="article">
+            <div class="article" >
             	<%= n.getNcontent() %>
 				<br />
 				<br />
 				<br />
 				<br />
             </div>
-            <div>
+            <div align="center" >
             <button onclick="location.href='<%= request.getContextPath() %>/selectList.no'">메뉴로 돌아가기</button>
 			<% if(m != null && m.getUserId().equals(n.getNwriter())){ %>
-			<button onclick="location.href='<%= request.getContextPath() %>/updateView.no?nno='+<%=n.getNno()%>">수정하기</button>
+			<!-- 
+			 <button onclick="location.href='<%= request.getContextPath() %>/updateView.no?nno='+<%=n.getNno()%>">수정하기</button>
+			 -->
 			<% } %>
             </div>
         </div>
- 
+ 		</table>
         <!-- //notice view -->
 
 	<%@ include file="../common/footer.jsp" %>
