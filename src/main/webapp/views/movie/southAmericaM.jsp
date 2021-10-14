@@ -78,9 +78,9 @@ color : white;
 
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/UK/bridget.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/BRAZIL/hulk.jpg" alt="">
                         </a>
-                        <span class="mTitle"> 브리짓 존스의 일기(Bridget Jones Diary)</span>
+                        <span class="mTitle">헐크(Hulk)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
