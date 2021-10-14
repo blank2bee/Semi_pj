@@ -47,6 +47,10 @@ color: white;
 		margin-right:auto;
 	}
 	
+	#a1 {
+	margin-left: 800px;
+	color: white;
+	}	
 </style>
 <link rel="stylesheet" href="/travelMaker/resources/css/common.css">
 </head>
@@ -87,10 +91,10 @@ color: white;
 		<hr>
 		<!-- 세션을 삭제 할수있는 코드가 있는데로 넘어 가는 코드 -->
 		<!-- 이 코드를 만든이유 -->
-		<form action="5delete.jsp">
-			 <a
-				href="javascript:history.back()">뒤로 가기</a>
-		</form>
+	
+			 <a id = "a1"
+				href="javascript:history.back()">뒤로 가기....</a>
+		
 	</body>
 
 
