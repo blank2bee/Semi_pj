@@ -8,14 +8,25 @@
 
 <html>
 <head>
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>주문 목록</title>
+<title>Travel Maker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
 <style>
-h3{
-color: white;
+
+#l1{
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size: 30px;
+font-weight: bolder;
+   background: linear-gradient(to right top, #831157, #fff69e);
+    color: transparent;
+    -webkit-background-clip: text;
 }
 th {
 color: salmon;
+font-size: 15px;
 }
 h2{
 text-size: 30px;
@@ -32,12 +43,12 @@ color: white;
 		background:black;
 		color:white;
 		margin-left:auto;
-		margin-right:auto;
+		margin-right:450px;
 		margin-top:50px;
 	}
 	table {
-		padding : 20px;
-		border:1px solid white;
+		
+		
 		text-align:center;
 	}
 	.tableArea {
@@ -51,6 +62,24 @@ color: white;
 	margin-left: 800px;
 	color: white;
 	}	
+	
+	.snip1535 {
+  background-color: #c47135;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+ font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1em;
+  font-size: 18px;
+  line-height: 1em;
+  margin-left: 640px;
+  outline: none;
+  padding: 12px 40px 10px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 </style>
 <link rel="stylesheet" href="/travelMaker/resources/css/common.css">
 </head>
@@ -61,7 +90,8 @@ color: white;
 	        <%@ include file="/views/common/footer.jsp" %> 
 		<div class="outer">
 		<br>
-		<h2 align="center">찜 목록</h2>
+		<div id = "l1" align="center">관심 목록</div>
+		<br>
 		<div class="tableArea">
 			<table align="center" id="listArea">
 				<tr>
@@ -69,7 +99,7 @@ color: white;
 					<th width="199px">제목</th>					
 					<th width="110px">감독</th>					
 					<th width="68px">평점</th>					
-					<th width="140px">관광명소</th>					
+					<th width="150px">관광명소</th>					
 					
 				</tr>
 				
@@ -84,16 +114,14 @@ color: white;
 				</td>
 				</tr>
 				</table>
-				</div>
+				</div> 
 		<h3>
 		
 		</h3>
-		<hr>
-		<!-- 세션을 삭제 할수있는 코드가 있는데로 넘어 가는 코드 -->
-		<!-- 이 코드를 만든이유 -->
+		<button class="snip1535">수정하기</button>	
+		
 	
-			 <a id = "a1"
-				href="javascript:history.back()">뒤로 가기....</a>
+		
 		
 	</body>
 

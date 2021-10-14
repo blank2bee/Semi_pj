@@ -63,6 +63,7 @@ color: white;
 
 </head>
 <body>
+
 	<%@ include file="/views/common/banner.jsp" %> 
 	<%@ include file="/views/common/sidebar.jsp" %>  
 	<%@ include file="/views/common/footer.jsp" %> 

@@ -47,7 +47,7 @@
     <div id="background">
     
             <input type="hidden" name="productName" value="&emsp;&emsp;한국&emsp;&emsp;&emsp;지금 만나러 갑니다&nbsp;&nbsp;&emsp;&emsp;&emsp;
-            이장훈&emsp;&emsp;&emsp;8.98&emsp;&emsp;&emsp;금강둘레길&emsp;&emsp;">
+            &nbsp;이장훈&emsp;&emsp;&emsp;&nbsp;8.98&emsp;&emsp;&emsp;&nbsp;금강둘레길&emsp;&emsp;">
             
     	
         <div id="country">

@@ -11,7 +11,7 @@
 	<title>에러 페이지</title>
 <link rel="stylesheet" href="/travelMaker/resources/css/common.css">
 	<script src="/travelMaker/resources/js/jquery-3.6.0.min.js"></script>
-	<style>
+	<style> 
 		section {
 			width : 600px;
 			padding : 20px;
