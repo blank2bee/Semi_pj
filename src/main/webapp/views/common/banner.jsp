@@ -156,7 +156,7 @@
 	}
 	
 	function memberJoin(){
-		location.href="/travelMaker/views/member/join.jsp";
+		location.href="/travelMaker/views/member/agree.jsp";
 	}
 	
 	function changeInfo(){
