@@ -22,6 +22,16 @@
 
 </script>
 
+<style>
+
+.slick-arrow{
+background-color: rgba(0,0,0,904);
+color : white;
+ 
+}
+
+</style>
+
 </head>
 <body>
 	<%@ include file="../common/banner.jsp" %> 
