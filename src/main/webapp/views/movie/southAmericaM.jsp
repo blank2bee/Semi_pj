@@ -57,8 +57,8 @@ color : white;
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                      <div class="item">
-                        <a href="/travelMaker/views/movie/UK/U-어바웃타임.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/BRAZIL/fastFive.jpg" alt="">
+                        <a href="/travelMaker/views/movie/BRAZIL/B-분노의질주.jsp">
+                            <img class="movie-img "src="/travelMaker/resources/images/BRAZIL/분노의질주.jpg" alt="">
                         </a>
                         <span class="mTitle">분노의 질주: 언리미티드(Fast Five)</span>
                     </div>

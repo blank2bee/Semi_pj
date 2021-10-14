@@ -4,7 +4,7 @@ const showMenu = (toggleId, navbarId, bodyId) => {
     navbar = document.getElementById(navbarId),
     bodypadding = document.getElementById(bodyId)
     navbar.classList.toggle('expander');
-            bodypadding.classList.toggle('body-pd');
+    bodypadding.classList.toggle('body-pd');
 
     if( toggle && navbar ) {
         toggle.addEventListener('click', ()=>{

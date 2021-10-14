@@ -57,8 +57,8 @@ color : white;
             <div class="movie-list-wrapper">
                 <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
                      <div class="item">
-                        <a href="/travelMaker/views/movie/UK/U-어바웃타임.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/USA/ocean.jpg" alt="">
+                        <a href="/travelMaker/views/movie/USA/U-오션스일레븐.jsp">
+                            <img class="movie-img "src="/travelMaker/resources/images/USA/오션스일레븐.png" alt="">
                         </a>
                         <span class="mTitle">오션 일레븐(Ocean 11)</span>
                     </div>
