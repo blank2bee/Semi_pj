@@ -12,9 +12,10 @@
 	 * {
       box-sizing: border-box;
     }
-      .btns {
-    width: 500px;
+      .btns:input[type=button] {
+    width: 300px;
     margin-right:50px;
+    background : #04a5db;
 }
 
 
@@ -115,11 +116,10 @@
     #joinBtn, #goMain {
     width: 110px;
     height: 40px;
-	margin-top: 60px;
-	color: black;
-	
-	
-	}
+    margin-top: 30px;
+    color: black;
+    background: #04a5db;
+}
 
     .form-control {
       width: 100%;
@@ -331,7 +331,7 @@
 				<tr>
 					<td colspan="3">
 					
-			<div class="btns" wieth="500px" align="center">
+			<div class="btns" width="500px" align="center">
 				<div id="goMain" onclick="goMain();">메인으로</div> &nbsp;
 				<div id="updateBtn" onclick="updateMember();">수정하기</div> &nbsp;
 				<div id="deleteBtn" onclick="deleteMember();">탈퇴하기</div>

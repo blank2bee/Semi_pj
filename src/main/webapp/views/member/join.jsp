@@ -12,7 +12,7 @@
     * {
       box-sizing: border-box;
     }
-
+	
     body {
       margin: 0;
       padding: 0;
@@ -22,11 +22,13 @@
     }
 
     input,
-    textarea,
-    button {
+    textarea {
       color: black;
       font-size: 15px;
+      
     }
+    
+
 
     input:focus,
     textarea:focus,
@@ -60,12 +62,10 @@
      align-items : centerpx;
       
     }
-
+	
     .form-container {
       width: 600px;
       height: 980px;
-      
-
       margin: auto;
       padding: 30px 100px 80px;
       border: 10px solid #95c6db;
@@ -106,7 +106,25 @@
       transition: all 0.15s ease;
     }
     
+    .form joinform{
+    	width: 162px;
+      height: 51px;
     
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      margin: 60px auto 0;
+      padding: 0;
+
+      border: 2px solid #ffffff;
+      border-radius: 4px;
+      background-color: #04a5db;
+    
+    }
+    
+	.joinform button[type="submit"]{
+        }    
     
     
     #joinBtn, #goMain {
@@ -114,9 +132,18 @@
     height: 40px;
 	margin-top: 30px;
 	color: black;
-	
+	background: #04a5db;
 	}
 	
+    #ckZip {
+    
+    margin-left: 110px;
+   width: 100px;
+   height: 30px;
+   color: black;
+  background:#04a5db;
+   
+    }
 
     .form-control {
       width: 100%;
@@ -149,34 +176,8 @@
       padding: 13px 1px;
     }
     
-    #ckZip {
-    margin-left: 110px;
-   width: 100px;
-   height: 30px;
-   color: black;
-  
-   
-    }
 
-    button[type="submit"] {
-      width: 162px;
-      height: 51px;
-    
-      display: flex;
-      align-items: center;
-      justify-content: center;
 
-      margin: 60px auto 0;
-      padding: 0;
-
-      color: #ffffff;
-      border: 2px solid #ffffff;
-      border-radius: 4px;
-      background-color: #39459b;
-      cursor: pointer;
-      text-transform: uppercase;
-      transition: background-color 0.2s linear;
-    }
 
     button[type="submit"]:hover {
       background-color: #299cd1;
