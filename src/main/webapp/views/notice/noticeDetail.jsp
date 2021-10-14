@@ -54,6 +54,7 @@
 							</a></i></li>
                 </ul>
             </div>
+            <br />
             <div class="article" >
             	<%= n.getNcontent() %>
 				<br />
@@ -71,6 +72,17 @@
             </div>
         </div>
  		</table>
+ 		<br />
+ 		<br />
+ 		<br />
+ 		<br />
+ 		<br />
+ 		<br />
+ 		<br />
+ 		<br />
+ 		<br />
+ 		<br />
+ 		<br />
         <!-- //notice view -->
 
 	<%@ include file="../common/footer.jsp" %>

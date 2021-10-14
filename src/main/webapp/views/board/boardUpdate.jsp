@@ -10,32 +10,39 @@
 <script src="/travelMaker/resources/js/jquery-3.6.0.min.js"></script>
 <style>
 	.outer{
-		width:800px;
-		height:500px;
-		background:black;
-		color:white;
-		margin-left:auto;
-		margin-right:auto;
-		margin-top:50px;
+	width:900px;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
 	}
-	
-	td {
-		border:1px solid white;
+	table {
+		padding : 20px;
+		text-align:center;
 	}
 
 	.tableArea {
-		border:1px solid white;
-		width:800px;
-		height:360px;
+		width:100%;
+		height:350px;
 		margin-left:auto;
 		margin-right:auto;
 	}
-	.tableArea table {
-		width : 600px;
-	}
-	#content {
-		height:230px;
-	}
+	
+	form{
+      width: 600px;
+      height: 550px;
+ 
+      margin: auto;
+      padding: 5px;
+
+      border: 10px solid #ffd40078;
+      background: white;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    }
+
+	
+
+
 </style>
 </head>
 <body>
@@ -100,6 +107,16 @@
 			</form>
 	</div>
 	</div>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
 	<%@ include file="../common/footer.jsp" %>
 </body>
 </html>
