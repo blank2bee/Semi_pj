@@ -13,9 +13,13 @@
 <link rel="stylesheet" href="/travelMaker/resources/css/common.css">
 <link rel="stylesheet" href="/travelMaker/resources/css/mapApi.css">
 <link rel="stylesheet" href="/travelMaker/resources/css/style.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
 <style>
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+	.{
+	font-family: "Poppins" , "sans-serif";
+	}
+	
 	.outer{
 		width:1000px;
 		height:500px;
@@ -44,6 +48,11 @@
 	#board_view_wrap{
 		border-radius: 30%;
 	}
+	
+	#mappan{
+	font-size:3px;
+	}
+	
 </style>
 </head>
 <body>
@@ -98,6 +107,7 @@
                         
                         <tr>           
                             <td height="400" width="600px" valign="top" style="padding:5px; ">
+                            <p id="mapan">* 지도에 근처 맛집과 명소를 검색해보세요!</p>
                             <div class="map_wrap">
 						    <div id="map" style="width:840px; height:400px; position:relative;overflow:hidden;"></div>
 						    <div id="menu_wrap" class="bg_white">
