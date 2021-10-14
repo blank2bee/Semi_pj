@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.kh.web.notice.model.service.NoticeService;
-import com.kh.web.notice.model.vo.PageInfo;
 import com.kh.web.notice.model.vo.Notice;
+import com.kh.web.notice.model.vo.PageInfo;
 
 /**
  * Servlet implementation class BoardSelectList
