@@ -137,13 +137,15 @@
 	
     #ckZip {
     
-    margin-left: 110px;
-   width: 100px;
-   height: 30px;
+
+   width: 80px;
+   height: 35px;
    color: black;
   background:#04a5db;
    
     }
+    
+   
 
     .form-control {
       width: 100%;
@@ -272,8 +274,9 @@
           		     <br><br>
           		    우편번호&nbsp; 
           		    <input type="text" id="zipCode" name="zipCode">
+          		   <input type= "button" id = "ckZip"  style="cursor:pointer;" value="검색" onclick="addrSearch();"></div>
           		    <br><br>
-          		    <input type= "button" id = "ckZip"  style="cursor:pointer;" value="검색" onclick="addrSearch();" ></div>
+          		    
           		    <br><br>
           		    &ensp;&ensp;&ensp;&ensp;주소&nbsp;
           		    <input type="text" id="address1" name="address1">
@@ -292,6 +295,7 @@
   </div>
   
   <script>
+  var check= false;
   function addrSearch() {
         new daum.Postcode({
             oncomplete: function(data) {
@@ -340,7 +344,13 @@
 	};
 	
 	function insertMember() {
+		if(check==false){
+	    	alert("아이디를 체크하세요!");	
+	    	}
+		
+		else{
 		$("#joinForm").submit();
+		}
 	}
 	
 	$("#joinForm").submit(function(event){
@@ -359,6 +369,8 @@
 	});
 	
 	$('#idCheck').on('click', function(){
+		
+		
 		 $.ajax({
 			 url : '/travelMaker/idcheck.do',
 			 type: 'post',
@@ -370,6 +382,7 @@
 					 alert("이미 사용 중인 아이디입니다.");
 				 } else {
 					 alert("사용 가능한 아이디입니다");
+					  check = true;
 				 }
 			 }, error : function( code ) {
 				 console.log( code );
