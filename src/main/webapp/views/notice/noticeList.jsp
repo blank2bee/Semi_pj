@@ -40,7 +40,7 @@
 					<th width="100px">글쓴이</th>					
 					<th width="150px">작성일</th>					
 					<th width="100px">조회수</th>					
-					<th width="100px">첨부파일</th>
+					
 				</tr>
 				<% for(Notice n : list) { %>
 				<tr>
@@ -50,11 +50,7 @@
 					<td><%= n.getNwriter() %></td>
 					<td><%= n.getNdate() %></td>
 					<td><%= n.getNcount() %></td>
-					<% if (n.getNoticefile() != null) { %>
-					<td> @ </td>
-					<% } else { %>
-					<td> X </td>
-					<% } %>
+					
 				</tr>
 				<% } %>
 			</table>
@@ -104,7 +100,7 @@
 							$(this).parent().css({"background" : "white"});
 						}).click(function(){
 							var nno = $(this).parent().find('input').val();
-							location.href = "< %= request.getContextPath() %>/selectOne.no?nno=" + nno;
+							location.href = "<%= request.getContextPath() %>/selectOne.no?nno=" + nno;
 						});
 					});
 				</script>

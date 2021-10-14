@@ -85,7 +85,7 @@ public class NoticeUpdate extends HttpServlet {
 		n.setNcontent(content);
 		
 		// 6. 변경사항이 담긴 n 를 들고 서비스로 출발!
-		int result = service.updateBoard(n);
+		int result = service.updateNotice(n);
 		
 		if( result > 0 ) {
 			response.sendRedirect("selectList.no"); // 게시글 목록
