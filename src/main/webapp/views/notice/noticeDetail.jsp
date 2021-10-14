@@ -13,7 +13,11 @@
 <script src="/travelMaker/resources/js/jquery-3.6.0.min.js"></script>
 <style>
 
-.notice-header {width: 700px; margin-bottom:10px; background:#fff; padding:10px 20px; border:10px solid #ff8149 }
+
+.notice-header { width:750px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px; background:#fff; padding:10px 20px; border:10px solid #ff8149 }
 .notice-header:after {display:block; clear:both; content:''}
 .notice-header .title-wrap {padding:20px 20px 10px 20px}
 .notice-header .title-wrap .category-info a {color:#ff8149}
@@ -33,7 +37,8 @@
 	<%@ include file="/views/common/sidebar.jsp" %>  
 
         <!-- notice header -->
-        <div class="notice-header" align="center" >
+        <table>
+        <div class="notice-header" width= "700px" >
             <div class="title-wrap">
                 <p class="category-info"><a href="/notice">공지사항</a></p>
                 <h2 class="notice-title"> <%= n.getNtitle() %></h2>
@@ -49,21 +54,23 @@
 							</a></i></li>
                 </ul>
             </div>
-            <div class="article">
+            <div class="article" >
             	<%= n.getNcontent() %>
 				<br />
 				<br />
 				<br />
 				<br />
             </div>
-            <div>
+            <div align="center" >
             <button onclick="location.href='<%= request.getContextPath() %>/selectList.no'">메뉴로 돌아가기</button>
 			<% if(m != null && m.getUserId().equals(n.getNwriter())){ %>
-			<button onclick="location.href='<%= request.getContextPath() %>/updateView.no?nno='+<%=n.getNno()%>">수정하기</button>
+			<!-- 
+			 <button onclick="location.href='<%= request.getContextPath() %>/updateView.no?nno='+<%=n.getNno()%>">수정하기</button>
+			 -->
 			<% } %>
             </div>
         </div>
- 
+ 		</table>
         <!-- //notice view -->
 
 	<%@ include file="../common/footer.jsp" %>

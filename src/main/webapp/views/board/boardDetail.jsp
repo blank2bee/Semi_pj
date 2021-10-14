@@ -24,6 +24,10 @@
 		margin-top:50px;
 	}
 	
+	.board_wrap{
+		border: 10px solid #00ad8e;
+	}
+	
 	#content {
 		width:800px;
 		height:230px;
@@ -95,7 +99,7 @@
                         <tr>           
                             <td height="400" width="600px" valign="top" style="padding:5px; ">
                             <div class="map_wrap">
-						    <div id="map" style="width:855px; height:400px; position:relative;overflow:hidden;"></div>
+						    <div id="map" style="width:840px; height:400px; position:relative;overflow:hidden;"></div>
 						    <div id="menu_wrap" class="bg_white">
 						        <div class="option" >
 						            <div>
