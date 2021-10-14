@@ -40,7 +40,7 @@ public class NoticeSelectOne extends HttpServlet {
 		if( n != null ) {
 			request.setAttribute("notice", n);
 			
-			page = "views/notice/notiveDetail.jsp";
+			page = "views/notice/noticeDetail.jsp";
 		} else {
 			request.setAttribute("error-msg", "게시글 상세조회 실패!");
 			

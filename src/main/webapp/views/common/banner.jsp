@@ -87,6 +87,10 @@
             font-size:17px;
             }
             
+            #join, #forgot, #login, #logoutBtn:hover{
+            	cursor:pointer;
+            }
+            
           
 </style>
 
@@ -113,7 +117,7 @@
             
             <br><br>
             
-            <input type="button" onclick='login()' value="로그인">
+            <input type="button" id="login" onclick='login()' value="로그인">
 
         </form>
 	

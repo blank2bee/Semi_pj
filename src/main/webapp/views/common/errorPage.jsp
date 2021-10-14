@@ -29,7 +29,7 @@
 	<%@ include file="/views/common/footer.jsp" %> 	
 	
 	<section>
-		<h1>서비스 에러 발생!</h1>
+		<h1 style="color : black;">서비스 에러 발생!</h1>
 		<h3 style="color : red;"> ERROR :: <%= msg %> </h3>
 		
 		<a href="/travelMaker/index.jsp">뒤로가기....</a>

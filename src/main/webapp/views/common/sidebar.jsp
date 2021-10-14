@@ -62,7 +62,7 @@
 	}
     
     function goNotice(){
-		location.href="/travelMaker/views/notice/noticeDetail.jsp";
+		location.href="/travelMaker/selectList.no";
 	}
     
     

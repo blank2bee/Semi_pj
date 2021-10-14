@@ -85,7 +85,7 @@
 				<br>
 				<div align="center">
 					<button onclick="complete();">수정완료</button>
-					<button onclick="deleteBoard();">삭제하기</button>
+					<button onclick="deleteNotice();">삭제하기</button>
 				</div>
 				<script>
 					function complete(){

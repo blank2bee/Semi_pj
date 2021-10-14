@@ -22,6 +22,16 @@
 
 </script>
 
+<style>
+
+.slick-arrow{
+background-color: rgba(0,0,0,904);
+color : white;
+ 
+}
+
+</style>
+
 </head>
 <body>
 	<%@ include file="../common/banner.jsp" %> 
@@ -89,8 +99,7 @@
                         <a href="/travelMaker/views/movie/France/F-미드나잇.jsp">
                             <img class="movie-img "src="/travelMaker/resources/images/TUNISIA/starwars.jpg" alt="">
                         </a>
-                        <span class="mTitle">스타워즈: 에피소드 1<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(STAR WARS: Episode 1)</span>
+                        <span class="mTitle">스타워즈 1(STAR WARS: Episode 1)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/views/movie/France/F-미드나잇.jsp">
@@ -100,96 +109,21 @@
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/before_sunset.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/TUNISIA/raiders.jpg" alt="">
                         </a>
-                        <span class="mTitle">비포 선셋(Before sunset)</span>
+                        <span class="mTitle">레이더스(Raiders)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/Les miserables.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/TUNISIA/newhope.jpg" alt="">
                         </a>
-                        <span class="mTitle">레미제라블(Les Miserable)</span>
-                    </div>
-                   
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/France/Marie Antoinette.jpg" alt="">
-                        </a>
-                        <span class="mTitle">마리앙투아네트(Marie Antoinette)</span>
-                    </div>
-                </div>
-            </div>  
-        </div>
-        <div class="movie-list-container">
-            <h1 class="moive-list-title">ITALY(이탈리아)</h1>
-            <div class="movie-list-wrapper">
-                <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
-                    <div class="item">
-                        <a href="#">
-                            <img class="movie-img "src="/travelMaker/resources/images/italy/angels&Demons.jpg" alt="">
-                        </a>
-                        <span class="mTitle">천사와 악마(Angels & Demons)</span>
+                        <span class="mTitle">스타워즈 4(Star Wars: Episode 4)</span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/italy/gladiator.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/x-circle-regular-24.png" alt="">
                         </a>
-                        <span class="mTitle">글래디에이터(Gladiator)</span>
-                    </div>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/italy/letter to juliet.jpg" alt="">
-                        </a>
-                        <span class="mTitle">레터스투줄리엣(Letter To Juliet)</span>
-                    </div>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/italy/john wick.jpg" alt="">
-                        </a>
-                        <span class="mTitle">존윅 : 리로드(John Wick)</span>
-                    </div>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/italy/eatPrayLove.jpg" alt="">
-                        </a>
-                        <span class="mTitle">먹고 기도하고 사랑하라(Eat,Pray,Love)</span>
-                    </div>
-                </div>
-            </div>  
-        </div>
-        <div class="movie-list-container">
-            <h1 class="moive-list-title">GERMANY(독일)</h1>
-            <div class="movie-list-wrapper">
-                <div class="movie-list" data-slick='{"slidesToShow": 4, "slidesToScroll": 1}'>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/charliesAngels.jpg" alt="">
-                        </a>
-                        <span class="mTitle">미녀삼총사3(Charlie's Angels)</span>
-                    </div>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/ImYourMan.jpg" alt="">
-                        </a>
-                        <span class="mTitle">아임유어맨(I'm Your Man)</span>
-                    </div>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/The Grand Budapest Hotel.jpg" alt="">
-                        </a>
-                        <span class="mTitle">그랜드부다페스호텔(The Grand Budapest Hotel)</span>
-                    </div>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/theBookThief.jpg" alt="">
-                        </a>
-                        <span class="mTitle">책도둑(The Book Theif)</span>
-                    </div>
-                    <div class="item">
-                        <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/germany/gunpowder.jpg" alt="">
-                        </a>
-                        <span class="mTitle">건파우더 밀크셰이크(Gunpowder Milkshake)</span>
+                        <span class="mTitle"></span>
                     </div>
                 </div>
             </div>  

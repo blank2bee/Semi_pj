@@ -22,6 +22,16 @@
 
 </script>
 
+<style>
+
+.slick-arrow{
+background-color: rgba(0,0,0,904);
+color : white;
+ 
+}
+
+</style>
+
 </head>
 <body>
 	<%@ include file="../common/banner.jsp" %> 
@@ -145,15 +155,15 @@
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/italy/john wick.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/x-circle-regular-24.png" alt="">
                         </a>
-                        <span class="mTitle">존윅 : 리로드(John Wick)</span>
+                        <span class="mTitle"></span>
                     </div>
                     <div class="item">
                         <a href="/travelMaker/F-movie1.jsp">
-                            <img class="movie-img "src="/travelMaker/resources/images/italy/eatPrayLove.jpg" alt="">
+                            <img class="movie-img "src="/travelMaker/resources/images/x-circle-regular-24.png" alt="">
                         </a>
-                        <span class="mTitle">먹고 기도하고 사랑하라(Eat,Pray,Love)</span>
+                        <span class="mTitle"></span>
                     </div>
                 </div>
             </div>  

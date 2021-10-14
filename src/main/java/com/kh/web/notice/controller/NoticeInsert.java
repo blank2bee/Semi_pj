@@ -82,7 +82,7 @@ public class NoticeInsert extends HttpServlet {
 		String userId = mre.getParameter("userId");
 		
 		// 5-2. 파일 저장 및 정보 처리하기
-		//     JSP로부터 전달받은 파일을 먼저 저장하고
+		//     travel로부터 전달받은 파일을 먼저 저장하고
 		//     해당 파일의 이름을 따온다.
 		
 		String filename = mre.getFilesystemName("file");

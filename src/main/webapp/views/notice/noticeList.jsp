@@ -14,6 +14,15 @@
 <head>
 <meta charset="UTF-8">
 <title>공지사항 목록</title>
+<link rel="stylesheet" href="/travelMaker/resources/css/common.css" />
+<script src="/travelMaker/resources/js/jquery-3.6.0.min.js"></script>
+<style>
+ outer{
+ background: white;}
+ table{
+ background : white;
+ border }
+</style>
 </head>
 <body>
 <%@ include file="../common/banner.jsp" %>
@@ -22,7 +31,7 @@
 	
 	<div class="outer">
 		<br>
-		<h2 align="center">공지 게시판</h2>
+		<h2  style="color : white;" align="center">공지 게시판</h2>
 		<div class="tableArea">
 			<table align="center" id="listArea">
 				<tr>
@@ -31,7 +40,7 @@
 					<th width="100px">글쓴이</th>					
 					<th width="150px">작성일</th>					
 					<th width="100px">조회수</th>					
-					<th width="100px">첨부파일</th>
+					
 				</tr>
 				<% for(Notice n : list) { %>
 				<tr>
@@ -41,11 +50,7 @@
 					<td><%= n.getNwriter() %></td>
 					<td><%= n.getNdate() %></td>
 					<td><%= n.getNcount() %></td>
-					<% if (n.getNoticefile() != null) { %>
-					<td> @ </td>
-					<% } else { %>
-					<td> X </td>
-					<% } %>
+					
 				</tr>
 				<% } %>
 			</table>
@@ -90,12 +95,12 @@
 				<script>
 					$(function(){
 						$('#listArea td').mouseenter(function(){
-							$(this).parent().css({"background" : "grey", "cursor" : "pointer"});
+							$(this).parent().css({"background" : "orange", "cursor" : "pointer"});
 						}).mouseout(function(){
-							$(this).parent().css({"background" : "black"});
+							$(this).parent().css({"background" : "white"});
 						}).click(function(){
 							var nno = $(this).parent().find('input').val();
-							location.href = "< %= request.getContextPath() %>/selectOne.no?nno=" + nno;
+							location.href = "<%= request.getContextPath() %>/selectOne.no?nno=" + nno;
 						});
 					});
 				</script>

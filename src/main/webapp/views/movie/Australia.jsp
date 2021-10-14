@@ -22,6 +22,16 @@
 
 </script>
 
+<style>
+
+.slick-arrow{
+background-color: rgba(0,0,0,904);
+color : white;
+ 
+}
+
+</style>
+
 </head>
 <body>
 	<%@ include file="../common/banner.jsp" %> 
@@ -35,9 +45,8 @@
             url('/travelMaker/resources/images/pexels-pixabay-220201.jpg');">
                 <h1 class="country">AUSTRALIA(오스트레일리아)</h1>
                 <p class="desc">
-                   유럽은 크게 네 지역으로 나뉘어. 스칸디나비아 반도를 포함한 북부 유럽, 일찍부터 산업이 발달한 알프스 산맥 위쪽의 서부 유럽, 
-                   고대 그리스·로마 문화가 꽃피었던 알프스 남쪽의 남부 유럽, 그리고 과거 사회주의 국가가 많았던 동부 유럽으로 나뉘지.유럽은 민족과 문화가 다양하지만, 
-                   최근에는 여러 나라들이 유럽 연합(EU)을 중심으로 하나의 유럽으로 통합되고 있어.
+					영국연방(英國聯邦)에 속하는 나라로, 오스트레일리아 대륙과 태즈메이니아섬 등을 국토로 한다. 1788년 1월 26일 영국이 최초로 
+					유럽인 정착지를 세운 이래 영국의 식민 상태였다가 1901년 1월 1일 오스트레일리아 연방을 발족하였다.
                 </p>
             </div>
         </div>
