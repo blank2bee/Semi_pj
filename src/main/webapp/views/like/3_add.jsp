@@ -24,9 +24,11 @@
 			checkOutList.add(productName);
 			session.setAttribute("productList", checkOutList);// 위에 추가 하고  저장 해야 한다
 		%>
-		<!-- 추가 버튼 누를시 "주류가 추가 되었습니다"뜨게하고 확인 하면 다시 현재 화면으로 -->
+		
+		
+		
 		<script>
-			alert("hi");
+			alert("저장 완료!");
 			history.back();
 		</script>
 </form>

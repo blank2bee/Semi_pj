@@ -38,6 +38,11 @@
                         <ion-icon name="people-outline" class="nav__icon"></ion-icon>
                         <span class="nav_name">1 : 1 문의</span>
                     </div>
+                    
+                     <div class="nav__link collapse"  onclick="goList1()">
+                        <ion-icon name="people-outline" class="nav__icon"></ion-icon>
+                        <span class="nav_name">1 : 1 문의</span>
+                    </div>
 
                     <a href="/travelMaker/views/member/memberUpdate.jsp" class="nav__link">
                         <ion-icon name="settings-outline" class="nav__icon"></ion-icon>
@@ -64,12 +69,17 @@
     function goList(){
 		location.href="/travelMaker/views/myinfo/trailer.jsp";
 	}
+    
     function goMan(){
 		location.href="/travelMaker/views/myinfo/mantoman.jsp";
 	}
     
     function logOut(){
 		location.href="/travelMaker/logout.do";
+	}
+    
+    function goList1(){
+		location.href="/travelMaker/views/like/4_checkout.jsp";
 	}
     
     </script>
