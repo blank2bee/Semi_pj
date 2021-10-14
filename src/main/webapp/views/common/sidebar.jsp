@@ -41,7 +41,7 @@
                     
                      <div class="nav__link collapse"  onclick="goList1()">
                         <ion-icon name="people-outline" class="nav__icon"></ion-icon>
-                        <span class="nav_name">1 : 1 문의</span>
+                        <span class="nav_name">찜 목록</span>
                     </div>
 
                     <a href="/travelMaker/views/member/memberUpdate.jsp" class="nav__link">
