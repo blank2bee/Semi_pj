@@ -22,6 +22,10 @@
  table{
  background : white;
  border }
+ 
+ td,tr{
+ align : center;
+ }
 </style>
 </head>
 <body>
@@ -43,7 +47,7 @@
 					
 				</tr>
 				<% for(Notice n : list) { %>
-				<tr>
+				<tr align="center">
 					<input type="hidden" value="<%= n.getNno() %>">
 					<td><%= n.getNno() %></td>
 					<td><%= n.getNtitle() %></td>

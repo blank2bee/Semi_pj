@@ -28,7 +28,7 @@
 .notice-header .info-wrap .notice-info:after {display:block; clear:both; content:''}
 .notice-header .info-wrap .notice-info li {margin-right:15px; float:left; font-size:0.875em; color:#fff5f0}
 .notice-header .info-wrap .notice-info li i {margin-right:4px; color:#fff}
-
+#titleImg{ width:600px; height:600px;}
 
 </style>
 </head>
@@ -56,6 +56,13 @@
             </div>
             <br />
             <div class="article" >
+            	<div id="ImgfileArea">
+					<% if (n.getNoticefile() != null) { %>
+	                	<img id="titleImg" src="<%= request.getContextPath() %>/resources/noticeUploadFiles/<%= n.getNoticefile() %>">							
+					<% } else { %>
+						
+					<% } %>
+				</div>
             	<%= n.getNcontent() %>
 				<br />
 				<br />
