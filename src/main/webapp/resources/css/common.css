@@ -278,8 +278,21 @@ label {
 
 #logoutBtn
 {
-    background: rgb(164, 164, 164);
+    background-color: #c47135;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 22px;
+     color: #ffffff;
+ 	 cursor: pointer;
+ 	 font-weight: 700;
+ 	 line-height: 1em;
 }
 #changeInfo {
-	background: rgb(164, 164, 164);
+	background-color: #c47135;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 22px;
+	 color: #ffffff;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 1em;
+
 }

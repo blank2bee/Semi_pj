@@ -4,7 +4,9 @@
  <%
  	Member m = (Member)session.getAttribute("member");
  %>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">s
  <style>
 			
 			h1{
@@ -133,10 +135,10 @@
 	<% } else { %>
 		<div id="userInfo">	
 			<div id="btns" align=center>
-				<label id="la1"><%= m.getUserName() %>님 환영합니다! </label><br>
+				<label id="la1"><br><%= m.getUserName() %>님 환영합니다! </label><br>
 				<div align="right">
-				<div id="changeInfo" onclick="changeInfo()">마이페이지</div>
-				<div id="logoutBtn" onclick='logout()'>로그아웃</div> 
+				<div id="changeInfo" onclick="changeInfo()">MyPage</div>
+				<div id="logoutBtn" onclick='logout()'>Logout</div> 
 			</div>
 			</div>	
 		</div>
